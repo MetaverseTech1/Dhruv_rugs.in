@@ -12,32 +12,51 @@ export default function ContactForm() {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState('');
 
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   setLoading(true);
+  //   setError('');
+
+  //   try {
+  //     const response = await fetch('/api/contact', {
+  //       method: 'POST',
+  //       headers: { 'Content-Type': 'application/json' },
+  //       body: JSON.stringify(formData),
+  //     });
+
+  //     const data = await response.json();
+
+  //     if (response.ok) {
+  //       setSuccess(true);
+  //       setFormData({ name: '', email: '', phone: '', message: '' });
+  //     } else {
+  //       setError(data.error || 'Something went wrong');
+  //     }
+  //   } catch (err) {
+  //     setError('Failed to send message. Please try again.');
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    setLoading(true);
-    setError('');
+  e.preventDefault();
+  setLoading(true);
+  setError('');
 
-    try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
-      });
+  try {
+    // Simulate a small delay (like an API call)
+    await new Promise((resolve) => setTimeout(resolve, 500));
 
-      const data = await response.json();
+    // Pretend it was successful
+    setSuccess(true);
+    setFormData({ name: '', email: '', phone: '', message: '' });
 
-      if (response.ok) {
-        setSuccess(true);
-        setFormData({ name: '', email: '', phone: '', message: '' });
-      } else {
-        setError(data.error || 'Something went wrong');
-      }
-    } catch (err) {
-      setError('Failed to send message. Please try again.');
-    } finally {
-      setLoading(false);
-    }
-  };
+  } catch (err) {
+    setError('Failed to send message. Please try again.');
+  } finally {
+    setLoading(false);
+  }
+};
 
   const handleChange = (e) => {
     setFormData(prev => ({
