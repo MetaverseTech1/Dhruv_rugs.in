@@ -47,7 +47,7 @@ export default function HomePage() {
       </div>
 
       {/* Newsletter Section */}
-      <div className="bg-black/20 backdrop-blur-xl border border-white/20 rounded-3xl p-12 text-center">
+      {/* <div className="bg-black/20 backdrop-blur-xl border border-white/20 rounded-3xl p-12 text-center">
         <h2 className="text-4xl font-bold text-white mb-6">Stay Updated</h2>
         <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
           Get the latest insights on rug craftsmanship, design trends, and exclusive collections delivered to your inbox.
@@ -62,7 +62,7 @@ export default function HomePage() {
             Subscribe
           </button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
