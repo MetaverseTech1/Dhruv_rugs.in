@@ -11,7 +11,7 @@ export default function AboutPage() {
           </span>
         </h1>
         <p className="text-xl text-white/90 max-w-3xl mx-auto">
-          Crafting Excellence Since 2020 - Second generation manufacturer and exporter of premium handcrafted rugs
+          Crafting Digital Excellence Since 2024 – Freelancers and content creators partnering with brands to share their stories worldwide.
         </p>
       </div>
 
@@ -21,86 +21,93 @@ export default function AboutPage() {
           <h2 className="text-4xl font-bold text-white mb-8 text-center">Our Story</h2>
           <div className="space-y-6 text-white/90 text-lg leading-relaxed">
             <p>
-              It is our proud pleasure to present you our good designs with eye catching colour scheme. Dhruv Rugs International was established in 2020, and since then we've been crafting excellence in every thread.
+              Dhruv flooring was founded in 2024 with the vision of helping businesses, entrepreneurs, and creators amplify their digital presence through engaging blogs and content publishing. We specialize in freelancing services, providing end-to-end solutions for content creation, digital branding, and blog management.
             </p>
             <p>
-              Dhruv Rugs International is running by Mr. Pawan Maurya with Mrs. Babita Maurya. We are second generation of manufacturer and exporter of Hand knots, Handloom & Hand tufted and Woolen Carpets in India. We specialized in natural dyes carpets.
+              As a company, we are committed to innovation and collaboration. Instead of building everything in-house, we believe in partnering with outstanding brands and individuals who bring real value to their industries. One such collaboration is with Dhruv Rugs International, a reputed manufacturer and exporter of premium handcrafted rugs. Through this partnership, we manage and publish insightful blogs that highlight Dhruv Rugs International excellence in the global carpet industry.
             </p>
             <p>
-              We get our carpets weaved by expert weavers and always use qualitative raw materials including good wool, viscose, silk etc. Our organization believes in making new ways and creating new products, striving to provide the best quality and most competitive rates in the industry.
-            </p>
-            <p>
-              Our company is moving towards the advancement in the path of prosperity, making an indelible mark in the industry by the virtue of its optimum quality products, which have a vivid and striking potential. We have always strived to provide the best product possible and most competitive rates in the industry.
+              Dhruv flooring is built on the principles of creativity, quality, and consistency. Our mission is to deliver meaningful content that connects businesses with their audience while ensuring professionalism and innovation in every project.
             </p>
           </div>
         </div>
       </div>
 
       {/* Values Section */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
-        <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-8 text-center">
-          <div className="w-16 h-16 bg-gradient-to-r from-orange-400 to-red-600 rounded-full mx-auto mb-6 flex items-center justify-center text-white text-2xl">
-            🎯
+      <div className="mb-20">
+        <h2 className="text-4xl font-bold text-white mb-12 text-center">What We Do</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-8 text-center">
+            <div className="w-16 h-16 bg-gradient-to-r from-orange-400 to-red-600 rounded-full mx-auto mb-6 flex items-center justify-center text-white text-2xl">
+              💡
+            </div>
+            <h3 className="text-2xl font-bold text-white mb-4">Innovation</h3>
+            <p className="text-white/80 leading-relaxed">
+              We believe in fresh ideas and creating impactful content tailored for each brand while staying aligned with the latest digital trends.
+            </p>
           </div>
-          <h3 className="text-2xl font-bold text-white mb-4">Innovation</h3>
-          <p className="text-white/80 leading-relaxed">
-            Our organization believes in making new ways and creating new products. We constantly strive to innovate while maintaining traditional craftsmanship techniques.
-          </p>
-        </div>
 
-        <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-8 text-center">
-          <div className="w-16 h-16 bg-gradient-to-r from-blue-400 to-purple-600 rounded-full mx-auto mb-6 flex items-center justify-center text-white text-2xl">
-            ⭐
+          <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-8 text-center">
+            <div className="w-16 h-16 bg-gradient-to-r from-blue-400 to-purple-600 rounded-full mx-auto mb-6 flex items-center justify-center text-white text-2xl">
+              ⭐
+            </div>
+            <h3 className="text-2xl font-bold text-white mb-4">Quality Content</h3>
+            <p className="text-white/80 leading-relaxed">
+              Our focus is on well-researched, engaging, and authentic storytelling that truly represents our partners and their vision.
+            </p>
           </div>
-          <h3 className="text-2xl font-bold text-white mb-4">Quality Selection</h3>
-          <p className="text-white/80 leading-relaxed">
-            We specialize in natural dyes carpets and always use qualitative raw materials including premium wool, viscose, and silk to ensure superior quality.
-          </p>
-        </div>
 
-        <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-8 text-center">
-          <div className="w-16 h-16 bg-gradient-to-r from-green-400 to-teal-600 rounded-full mx-auto mb-6 flex items-center justify-center text-white text-2xl">
-            🚀
+          <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-8 text-center">
+            <div className="w-16 h-16 bg-gradient-to-r from-green-400 to-teal-600 rounded-full mx-auto mb-6 flex items-center justify-center text-white text-2xl">
+              ⚡
+            </div>
+            <h3 className="text-2xl font-bold text-white mb-4">Prompt Delivery</h3>
+            <p className="text-white/80 leading-relaxed">
+              We value your time and ensure reliable, timely, and professional publishing services.
+            </p>
           </div>
-          <h3 className="text-2xl font-bold text-white mb-4">Prompt Service</h3>
-          <p className="text-white/80 leading-relaxed">
-            We pride ourselves on supplying independent home furnishing retailers, chain stores & internet vendors with prompt and reliable service worldwide.
-          </p>
         </div>
       </div>
 
       {/* Global Reach Section */}
       <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-12 mb-20 text-center">
         <h2 className="text-4xl font-bold text-white mb-8">Global Presence</h2>
-        <p className="text-xl text-white/90 mb-8 max-w-4xl mx-auto leading-relaxed">
-          We pride ourselves on supplying independent home furnishing retailers, chain stores & internet vendors throughout the US, Canada, Europe, Japan & Australia. Our range of offerings consists of the highest quality rugs with the most current fashion trends.
+        <p className="text-xl text-white/90 max-w-4xl mx-auto leading-relaxed">
+          We proudly work with independent businesses, startups, and global brands across the world. Our network allows us to bring the latest trends, ideas, and industry stories to readers worldwide.
         </p>
-        
-        {/* Countries Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
-          {["Germany", "U.A.E", "U.S.A", "U.K", "Australia", "Japan", "Italy", "Netherlands"].map((country) => (
-            <div key={country} className="bg-white/5 rounded-lg p-4">
-              <span className="text-white font-semibold text-sm">{country}</span>
-            </div>
-          ))}
-        </div>
       </div>
 
-      {/* Mission Section */}
+      {/* Contact Information Section */}
       <div className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 backdrop-blur-xl border border-white/20 rounded-2xl p-12 mb-20">
         <div className="text-center mb-8">
-          <h2 className="text-4xl font-bold text-white mb-4">Our Mission</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">Partnership Contact</h2>
+          <p className="text-lg text-white/80 mb-8">For partnership inquiries with Dhruv Rugs International brand</p>
         </div>
-        <p className="text-xl text-white/90 leading-relaxed text-center max-w-4xl mx-auto">
-          Our mission is to develop a secured community that grows with changing times and to deliver every customer the skill sets of each craftsman. We operate as an extended family and welcome each talent that showcases creativity, leadership and commitment. Every moment, we live a dream of each artisan and connect them to million hearts worldwide.
-        </p>
+        <div className="max-w-2xl mx-auto space-y-4 text-white/90 text-lg">
+          <div className="flex items-center justify-center gap-3">
+            <span className="font-semibold">Name:</span>
+            <span>Dhruv Rugs International</span>
+          </div>
+          <div className="flex items-center justify-center gap-3">
+            <span className="font-semibold">Email:</span>
+            <a href="mailto:info@dhruvrugs.global" className="text-orange-400 hover:text-orange-300 transition-colors">
+              info@dhruvrugs.global
+            </a>
+          </div>
+          <div className="flex items-center justify-center gap-3">
+            <span className="font-semibold">Phone:</span>
+            <a href="tel:+918318600961" className="text-orange-400 hover:text-orange-300 transition-colors">
+              +91 8318600961
+            </a>
+          </div>
+        </div>
       </div>
 
       {/* Call to Action */}
       <div className="bg-black/20 backdrop-blur-xl border border-white/20 rounded-3xl p-12 text-center">
-        <h2 className="text-4xl font-bold text-white mb-6">Ready to Find Your Perfect Rug?</h2>
+        <h2 className="text-4xl font-bold text-white mb-6">Ready to Collaborate?</h2>
         <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-          Explore our collection of Hand knots, Handloom & Hand tufted carpets crafted with natural dyes and premium materials.
+          Let's work together to create engaging content and amplify your brand's story.
         </p>
         <Link 
           href="/contact"
