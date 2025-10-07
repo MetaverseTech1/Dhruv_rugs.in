@@ -2,7 +2,6 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import Image from 'next/image';
 import SearchBar from './SearchBar';
 
 export default function Navbar() {
@@ -15,16 +14,11 @@ export default function Navbar() {
     <nav className="fixed top-5 left-1/2 transform -translate-x-1/2 z-50 w-[90%] max-w-7xl">
       <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl px-6 py-3 shadow-2xl">
         <div className="flex justify-between items-center">
-          {/* Logo - Clean and subtle */}
+          {/* Logo Text - Highlighted */}
           <Link href="/" className="flex items-center group">
-            <Image 
-              src="/dhruv-logo.jpg" 
-              alt="DHRUV Rugs International - Carpets, Rugs, Flatweave"
-              width={160}
-              height={50}
-              className="h-10 w-auto object-contain opacity-90 group-hover:opacity-100 transition-all duration-300 group-hover:scale-105"
-              priority
-            />
+            <span className="text-3xl font-black bg-gradient-to-r from-orange-400 to-red-600 bg-clip-text text-transparent group-hover:scale-105 transition-transform duration-300">
+              DHRUV
+            </span>
           </Link>
 
           {/* Desktop Navigation */}

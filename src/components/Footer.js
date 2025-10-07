@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -9,16 +8,9 @@ export default function Footer() {
           {/* Logo & Description */}
           <div className="md:col-span-2">
             <div className="flex items-center mb-6">
-              <div className="bg-white rounded-lg p-3 shadow-lg">
-                <Image 
-                  src="/dhruv-logo.jpg" 
-                  alt="DHRUV Rugs International" 
-                  width={200}
-                  height={65}
-                  className="h-12 w-auto object-contain"
-                  priority
-                />
-              </div>
+              <span className="text-4xl font-black bg-gradient-to-r from-orange-400 to-red-600 bg-clip-text text-transparent">
+                DHRUV
+              </span>
             </div>
             <p className="text-white/80 text-lg leading-relaxed mb-6 max-w-md">
               Discover the art of handwoven perfection. From traditional Persian designs to contemporary masterpieces, explore our world of premium carpets and rugs.
@@ -30,14 +22,14 @@ export default function Footer() {
               </p>
               <p className="flex items-center">
                 <span className="mr-3">✉️</span>
-                <a href="mailto:contact@dhruvrugs.com" className="hover:text-orange-400 transition-colors duration-300">
-                  contact@dhruvrugs.com
+                <a href="mailto:info@dhruvrugs.global" className="hover:text-orange-400 transition-colors duration-300">
+                  info@dhruvrugs.global
                 </a>
               </p>
               <p className="flex items-center">
                 <span className="mr-3">📞</span>
-                <a href="tel:+91XXXXXXXXXX" className="hover:text-orange-400 transition-colors duration-300">
-                  +91 XXX XXX XXXX
+                <a href="tel:+918318600961" className="hover:text-orange-400 transition-colors duration-300">
+                  +91 8318600961
                 </a>
               </p>
             </div>

@@ -23,7 +23,7 @@ export default function HomePage() {
             Luxury Rugs
           </span>
           <br />
-          <span className="text-orange-400 animate-glow">& Stories</span>
+           <span className="text-white">& Stories</span>
         </h1>
         <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-12 leading-relaxed">
           Discover the art of handwoven perfection. From traditional Persian designs to contemporary masterpieces, explore our world of premium carpets and rugs.
@@ -32,7 +32,7 @@ export default function HomePage() {
           href="/blog" 
           className="inline-block bg-gradient-to-r from-orange-500 to-red-600 text-white px-10 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-orange-500/25 transition-all duration-300 hover:scale-105 animate-glow"
         >
-          Explore Our Collection
+          Explore Blogs
         </Link>
       </div>
 
