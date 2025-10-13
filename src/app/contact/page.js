@@ -15,7 +15,7 @@ export default function ContactPage() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+      <div className="max-w-2xl mx-auto space-y-8">
         {/* Contact Form */}
         <ContactForm />
 
