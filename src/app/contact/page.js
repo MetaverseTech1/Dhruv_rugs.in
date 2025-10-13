@@ -19,86 +19,26 @@ export default function ContactPage() {
         {/* Contact Form */}
         <ContactForm />
 
-        {/* Contact Information */}
-        <div className="space-y-8">
-          <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-8">
-            <h2 className="text-3xl font-bold text-white mb-6">Get in Touch</h2>
-            <div className="space-y-6">
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-orange-400 to-red-600 rounded-full flex items-center justify-center text-white text-xl flex-shrink-0">
-                  📍
-                </div>
-                <div>
-                  <h3 className="text-white font-semibold mb-2">Address</h3>
-                  <p className="text-white/80">
-                    DHRUV Rugs International<br />
-                
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-purple-600 rounded-full flex items-center justify-center text-white text-xl flex-shrink-0">
-                  📧
-                </div>
-                <div>
-                  <h3 className="text-white font-semibold mb-2">Email</h3>
-                  <p className="text-white/80">
-                    contact@dhruvrugs.com<br />
-                    info@dhruvrugs.com
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-green-400 to-teal-600 rounded-full flex items-center justify-center text-white text-xl flex-shrink-0">
-                  📞
-                </div>
-                <div>
-                  <h3 className="text-white font-semibold mb-2">Phone</h3>
-                  <p className="text-white/80">
-                    +91 XXX XXX XXXX<br />
-                    +91 YYY YYY YYYY
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-purple-400 to-pink-600 rounded-full flex items-center justify-center text-white text-xl flex-shrink-0">
-                  ⏰
-                </div>
-                <div>
-                  <h3 className="text-white font-semibold mb-2">Business Hours</h3>
-                  <p className="text-white/80">
-                    Monday - Friday: 9:00 AM - 7:00 PM<br />
-                    Saturday: 9:00 AM - 5:00 PM<br />
-                    Sunday: Closed
-                  </p>
-                </div>
-              </div>
+        {/* Why Choose DHRUV Section */}
+        <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-8">
+          <h3 className="text-2xl font-bold text-white mb-4">Why Choose DHRUV?</h3>
+          <div className="space-y-4 text-white/80">
+            <div className="flex items-center space-x-3">
+              <span className="text-orange-400">✓</span>
+              <span>Expert guidance on rug selection</span>
             </div>
-          </div>
-
-          <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-8">
-            <h3 className="text-2xl font-bold text-white mb-4">Why Choose DHRUV?</h3>
-            <div className="space-y-4 text-white/80">
-              <div className="flex items-center space-x-3">
-                <span className="text-orange-400">✓</span>
-                <span>Expert guidance on rug selection</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <span className="text-orange-400">✓</span>
-                <span>Authentic handwoven pieces</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <span className="text-orange-400">✓</span>
-                <span>Custom sizing available</span>
-              </div>
-              
-              <div className="flex items-center space-x-3">
-                <span className="text-orange-400">✓</span>
-                <span>Worldwide shipping</span>
-              </div>
+            <div className="flex items-center space-x-3">
+              <span className="text-orange-400">✓</span>
+              <span>Authentic handwoven pieces</span>
+            </div>
+            <div className="flex items-center space-x-3">
+              <span className="text-orange-400">✓</span>
+              <span>Custom sizing available</span>
+            </div>
+            
+            <div className="flex items-center space-x-3">
+              <span className="text-orange-400">✓</span>
+              <span>Worldwide shipping</span>
             </div>
           </div>
         </div>
