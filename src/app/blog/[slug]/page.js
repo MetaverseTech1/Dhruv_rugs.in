@@ -9,6 +9,22 @@ export default function BlogPostPage({ params }) {
     notFound();
   }
 
+  const getCategoryGradient = (category) => {
+    switch(category) {
+      case 'Persian Rugs':
+      case 'Luxury Craftsmanship':
+        return 'from-orange-400 to-red-600';
+      case 'Design Tips':
+        return 'from-blue-400 to-purple-600';
+      case 'Care Guide':
+        return 'from-green-400 to-teal-600';
+      case 'News':
+        return 'from-purple-400 to-pink-600';
+      default:
+        return 'from-orange-400 to-red-600';
+    }
+  };
+
   return (
     <div className="max-w-4xl mx-auto px-6 pt-32 pb-16">
       {/* Back Button */}
@@ -38,29 +54,17 @@ export default function BlogPostPage({ params }) {
         </p>
       </div>
 
-      {/* Featured Image */}
-      <div className="w-full h-96 bg-gradient-to-br from-orange-400 to-red-600 rounded-2xl mb-12 flex items-center justify-center text-white text-8xl overflow-hidden relative">
-        {post.image}
-        <div className="absolute inset-0 bg-black/20"></div>
-      </div>
+      {/* Featured Image - Only render if image exists */}
+      {post.image && (
+        <div className={`w-full h-96 bg-gradient-to-br ${getCategoryGradient(post.category)} rounded-2xl mb-12 flex items-center justify-center text-white text-8xl overflow-hidden relative`}>
+          {post.image}
+          <div className="absolute inset-0 bg-black/20"></div>
+        </div>
+      )}
 
       {/* Article Content */}
       <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-12">
         <div dangerouslySetInnerHTML={{ __html: post.content }} />
-
-        {/* Share Buttons */}
-        <div className="flex items-center space-x-4 mt-12 pt-8 border-t border-white/20">
-          <span className="text-white font-semibold">Share this article:</span>
-          <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300">
-            Facebook
-          </button>
-          <button className="bg-blue-400 text-white px-4 py-2 rounded-lg hover:bg-blue-500 transition-colors duration-300">
-            Twitter
-          </button>
-          <button className="bg-blue-800 text-white px-4 py-2 rounded-lg hover:bg-blue-900 transition-colors duration-300">
-            LinkedIn
-          </button>
-        </div>
       </div>
     </div>
   );
