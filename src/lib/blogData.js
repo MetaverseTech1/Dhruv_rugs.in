@@ -1,58 +1,41 @@
-{
-  "categories": [
+export const blogPosts = [
     {
-      "name": "Traditional Rugs",
-      "icon": "🏛️",
-      "description": "Classic patterns and timeless designs"
-    },
-    {
-      "name": "Maintenance",
-      "icon": "🧽",
-      "description": "Care tips and cleaning guides"
-    },
-    {
-      "name": "Design Tips",
-      "icon": "🎨",
-      "description": "Interior design and styling advice"
-    },
-    {
-      "name": "Buying Guide",
-      "icon": "🛒",
-      "description": "Expert advice for smart purchases"
-    },
-    {
-      "name": "Sustainability",
-      "icon": "🌱",
-      "description": "Eco-friendly options and practices"
-    },
-    {
-      "name": "Small Spaces",
-      "icon": "🏠",
-      "description": "Solutions for compact living"
-    },
-    {
-      "name": "Modern Rugs",
-      "icon": "✨",
-      "description": "Contemporary designs and trends"
-    },
-    {
-      "name": "Handmade Crafts",
-      "icon": "✋",
-      "description": "Artisan techniques and craftsmanship"
-    }
-  ],
-  "posts": [
-    {
-      "id": 1,
-      "title": "DhruvRugs Showcases India's Timeless Craft at the 49th India Carpet Expo",
-      "slug": "dhruv-rugs-49th-india-carpet-expo-bhadohi",
-      "excerpt": "Experience the vibrant celebration of India's handmade carpet legacy as DhruvRugs participates in Asia's most prestigious carpet trade event in Bhadohi, the Carpet Capital of India.",
-      "content": "The city of Bhadohi — often called the 'Carpet Capital of India' — once again became the vibrant epicenter of global trade, artistry, and craftsmanship as it hosted the 49th India Carpet Expo from 11th to 14th October 2025.\n\nOrganized by the Carpet Export Promotion Council (CEPC) under the Ministry of Textiles, Government of India, the event welcomed participants, buyers, and artisans from across Asia and beyond to celebrate the enduring legacy of handmade carpets and floor coverings.\n\nFor DhruvRugs, this event was more than a trade fair — it was a reaffirmation of India's centuries-old weaving traditions and a step toward shaping the future of global flooring aesthetics. The expo provided an invaluable opportunity to connect with global partners, explore emerging design trends, and strengthen international collaborations.\n\nAt the expo, DhruvRugs unveiled its latest collection — a seamless blend of traditional Indian motifs and contemporary global aesthetics. Each rug reflected the company's philosophy: preserving the soul of hand-weaving while adapting to modern lifestyles. From luxurious hand-knotted Persian-inspired designs to minimalist modern textures, the collection catered to diverse international tastes without compromising authenticity.\n\nBeyond the beauty of the rugs lies DhruvRugs' deeper mission — empowering the artisans of Bhadohi. The company continues to invest in training, fair compensation, and improved working conditions for weavers, ensuring that the legacy of hand-knotted carpets remains both vibrant and viable.\n\nCompany representatives engaged with buyers and designers from across Asia, Europe, and the Middle East, emphasizing DhruvRugs' commitment to sustainability through natural dyes, artisan welfare through livelihood opportunities, design innovation by merging traditional techniques with modern aesthetics, and global partnerships that bring Indian artistry to homes across continents.",
-      "category": "Handmade Crafts",
-      "date": "2025-10-14",
-      "readTime": "6 min read",
-      "image": "/images/blog1.jpg",
-      "tags": ["bhadohi", "carpet-expo", "handmade", "sustainability", "artisan", "traditional"]
-    }
-  ]
-}
+    slug: 'art-of-luxury-hand-knotted-rugs',
+    title: 'The Art of Luxury: How Hand-Knotted Rugs Define Sophisticated Interiors',
+    excerpt: 'Discover why hand-knotted rugs remain the ultimate expression of sophistication in modern interiors, where every knot represents countless hours of artistry and heritage.',
+    content: `
+      <div class="prose prose-lg max-w-none">
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          In the world of interior design, luxury is not just about grandeur — it's about authenticity, craftsmanship, and timeless elegance. Few décor elements capture this spirit as beautifully as a hand-knotted rug. Every knot, fiber, and motif represents countless hours of artistry, turning raw materials into a masterpiece that can transform any room into a statement of taste and refinement.
+        </p>
+        <h2 class="text-3xl font-bold text-white mb-6">The Soul of Craftsmanship</h2>
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          A hand-knotted rug isn't merely produced; it is created. Skilled artisans, often carrying generations of inherited knowledge, tie thousands — sometimes millions — of knots individually on a vertical loom. Each knot contributes to the overall design, forming intricate patterns that no machine can truly replicate. Depending on the size and complexity, one rug can take six months to two years to complete. These rugs aren't just décor items; they're cultural artifacts — preserving regional techniques from Persia, India, Turkey, and beyond.
+        </p>
+        <h2 class="text-3xl font-bold text-white mb-6">Luxury Through Natural Materials</h2>
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          Luxury lies not only in design but in the materials used. The finest hand-knotted rugs are crafted from premium wool, silk, and bamboo silk, ensuring each creation embodies purity and perfection. Wool offers soft resilience and natural luster, while silk provides radiant sheen and smooth texture for elegant spaces. Bamboo silk serves as a sustainable, eco-friendly alternative with silky softness.
+        </p>
+        <h2 class="text-3xl font-bold text-white mb-6">The Designer's Secret Weapon</h2>
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          A hand-knotted rug anchors a room, sets the tone, and elevates the design narrative. Whether your décor leans minimalist or regal, these masterpieces adapt beautifully. Interior designers value the ability to customize colorways, patterns, and sizes for each project, creating truly bespoke pieces that transform spaces from penthouses to boutique hotels.
+        </p>
+        <h2 class="text-3xl font-bold text-white mb-6">Sustainability and Timeless Beauty</h2>
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          Hand-knotted rugs are inherently sustainable — made from natural fibers using manual processes that support artisan communities with fair wages and ethical production. This is the essence of slow luxury: appreciating artistry, time, and tradition in an age of fast fashion. With proper care, these rugs last generations, aging gracefully while retaining their charm and value, becoming treasured heirlooms that tell stories of living history.
+        </p>
+      </div>
+    `,
+    date: 'Oct 13 2025',
+    category: 'Luxury Craftsmanship',
+    readTime: '6 min read',
+    image: ''
+  }
+];
+
+export const categories = [
+  { name: 'Persian Rugs', count: 1, color: 'from-orange-400 to-red-600' },
+  { name: 'Design Tips', count: 0, color: 'from-blue-400 to-purple-600' },
+  { name: 'Care Guide', count: 0, color: 'from-green-400 to-teal-600' },
+  { name: 'News', count: 0, color: 'from-purple-400 to-pink-600' }
+];
