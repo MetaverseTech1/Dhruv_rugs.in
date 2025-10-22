@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function BlogCard({ post }) {
   const getCategoryGradient = (category) => {
@@ -20,12 +21,28 @@ export default function BlogCard({ post }) {
   return (
     <Link href={`/blog/${post.slug}`}>
       <article className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl overflow-hidden hover:bg-white/20 transition-all duration-500 hover:scale-105 group cursor-pointer h-full">
-        {post.image && (
-          <div className={`w-full h-64 bg-gradient-to-br ${getCategoryGradient(post.category)} flex items-center justify-center text-white text-6xl relative overflow-hidden`}>
-            {post.image}
-            <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-500"></div>
-          </div>
-        )}
+        {/* Image Container */}
+        <div className="w-full h-64 relative overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900">
+          {post.image ? (
+            <>
+              <Image 
+                src={post.image}
+                alt={post.title}
+                fill
+                className="object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent group-hover:from-black/30 transition-colors duration-500"></div>
+            </>
+          ) : (
+            <div className={`w-full h-full bg-gradient-to-br ${getCategoryGradient(post.category)} flex items-center justify-center relative`}>
+              <div className="text-white/20 text-8xl font-bold">
+                {post.category.charAt(0)}
+              </div>
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-500"></div>
+            </div>
+          )}
+        </div>
+
         <div className="p-8">
           <div className="flex items-center space-x-4 text-white/70 text-sm mb-4">
             <span>{post.date}</span>
