@@ -1,10 +1,11 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { blogPosts } from '@/lib/blogData';
 import { notFound } from 'next/navigation';
 
 export default function BlogPostPage({ params }) {
   const post = blogPosts.find(p => p.slug === params.slug);
-
+  
   if (!post) {
     notFound();
   }
@@ -54,10 +55,26 @@ export default function BlogPostPage({ params }) {
         </p>
       </div>
 
-      {/* Featured Image - Only render if image exists */}
+      {/* Featured Image */}
       {post.image && (
-        <div className={`w-full h-96 bg-gradient-to-br ${getCategoryGradient(post.category)} rounded-2xl mb-12 flex items-center justify-center text-white text-8xl overflow-hidden relative`}>
-          {post.image}
+        <div className="w-full h-96 rounded-2xl mb-12 overflow-hidden relative">
+          <Image 
+            src={post.image}
+            alt={post.title}
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+        </div>
+      )}
+
+      {/* Fallback gradient if no image */}
+      {!post.image && (
+        <div className={`w-full h-96 bg-gradient-to-br ${getCategoryGradient(post.category)} rounded-2xl mb-12 flex items-center justify-center overflow-hidden relative`}>
+          <div className="text-white/20 text-9xl font-bold">
+            {post.category.charAt(0)}
+          </div>
           <div className="absolute inset-0 bg-black/20"></div>
         </div>
       )}
