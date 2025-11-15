@@ -213,7 +213,7 @@ export const blogPosts = [
   {
     slug: 'rug-trends-2025-2026-texture-minimalism',
     title: 'The Future of Rug Design: 2025-2026 Trends Redefining Modern Interiors',
-    excerpt: 'Discover the revolutionary shift in rug design—from earthy minimalism to organic shapes and Japandi influences—that's transforming how we experience luxury and comfort in contemporary spaces.',
+    excerpt: 'Discover the revolutionary shift in rug design - from earthy minimalism to organic shapes and Japandi influences - that\'s transforming how we experience luxury and comfort in contemporary spaces.',
     content: `
       <div class="prose prose-lg max-w-none">
         <p class="text-white/90 text-lg leading-relaxed mb-8">
