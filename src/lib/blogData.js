@@ -210,7 +210,7 @@ export const blogPosts = [
     readTime: '9 min read',
     image: ''
   },
-    {
+  {
     slug: 'rug-trends-2025-2026-texture-minimalism',
     title: 'The Future of Rug Design: 2025-2026 Trends Redefining Modern Interiors',
     excerpt: 'Discover the revolutionary shift in rug design—from earthy minimalism to organic shapes and Japandi influences—that's transforming how we experience luxury and comfort in contemporary spaces.',
@@ -293,7 +293,7 @@ export const blogPosts = [
         </p>
       </div>
     `,
-    date: 'Nov 15 2025',
+    date: 'Nov 12 2025',
     category: 'Design Tips',
     readTime: '10 min read',
     image: '/blog4.jpg'
@@ -302,7 +302,7 @@ export const blogPosts = [
 
 export const categories = [
   { name: 'Persian Rugs', count: 0, color: 'from-orange-400 to-red-600' },
-  { name: 'Design Tips', count: 2, color: 'from-blue-400 to-purple-600' },
+  { name: 'Design Tips', count: 3, color: 'from-blue-400 to-purple-600' },
   { name: 'Care Guide', count: 0, color: 'from-green-400 to-teal-600' },
   { name: 'News', count: 1, color: 'from-purple-400 to-pink-600' },
   { name: 'Luxury Craftsmanship', count: 1, color: 'from-amber-400 to-orange-600' }
