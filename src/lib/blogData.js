@@ -1,4 +1,92 @@
 export const blogPosts = [
+    {
+    slug: 'rug-trends-2025-2026-texture-minimalism',
+    title: 'The Future of Rug Design: 2025-2026 Trends Redefining Modern Interiors',
+    excerpt: 'Discover the revolutionary shift in rug design—from earthy minimalism to organic shapes and Japandi influences—that's transforming how we experience luxury and comfort in contemporary spaces.',
+    content: `
+      <div class="prose prose-lg max-w-none">
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          The world of interior design is experiencing a profound transformation. As we move through 2025 and into 2026, rugs are no longer mere floor coverings—they've evolved into architectural elements that define atmosphere, emotion, and spatial identity. The modern buyer seeks more than visual appeal; they crave sensory richness, sustainable craftsmanship, and designs that resonate with a calmer, more intentional way of living.
+        </p>
+
+        <h2 class="text-3xl font-bold text-white mb-6">The Rise of Earthy Minimalism</h2>
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          After years of bold patterns and vivid colors, the design pendulum is swinging decisively toward softer, nature-inspired aesthetics. Warm sand tones, layered beiges, mushroom greys, and off-white palettes now dominate luxury homes, boutique hotels, and premium retail spaces worldwide. This shift reflects a deeper cultural movement—a collective desire for serenity and simplicity in an increasingly complex world.
+        </p>
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          Minimalist rugs featuring subtle geometric impressions and soft color transitions pair beautifully with modern furniture while offering timeless versatility. These designs don't compete for attention—they create foundation, allowing architecture and curated décor elements to shine. The beauty lies in restraint: fewer patterns, gentler contrasts, and colors that calm rather than stimulate.
+        </p>
+
+        <h2 class="text-3xl font-bold text-white mb-6">Texture: The New Pattern Language</h2>
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          In contemporary interiors, texture has emerged as the defining design element. As spaces grow cleaner and more structured, textured rugs provide essential balance—bringing warmth, depth, and tactile interest to minimalist environments. High-pile shags, carved surfaces, loop-and-cut weaves, and layered textures transform floors into sensory experiences.
+        </p>
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          This emphasis on texture serves both aesthetic and practical purposes. Textured surfaces photograph exceptionally well for the digital-first world of interior design, where Instagram feeds and online portfolios influence purchasing decisions. More importantly, they invite physical interaction—the soft resistance underfoot, the visual play of light and shadow across carved surfaces—creating spaces that feel as good as they look.
+        </p>
+
+        <h2 class="text-3xl font-bold text-white mb-6">Organic Shapes and Flowing Forms</h2>
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          Straight edges are giving way to curves, waves, and asymmetrical forms that mimic natural environments. This trend reflects the growing use of curved architecture, rounded furniture, and biomorphic interior elements throughout modern spaces. Organic rug shapes don't just fit into these environments—they define them, serving as sculptural statement pieces that anchor entire rooms.
+        </p>
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          These flowing forms create visual softness and spatial movement, guiding the eye naturally through a room. Whether in neutral tones that blend seamlessly or bold colors that command attention, organic shapes bring contemporary sophistication to residential and commercial spaces alike.
+        </p>
+
+        <h2 class="text-3xl font-bold text-white mb-6">The Japandi Revolution</h2>
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          The fusion of Scandinavian minimalism and Japanese serenity—known as Japandi—has become one of the most influential design movements across Europe, the USA, and Australia. This aesthetic celebrates warm neutrals, understated patterns, light wood-inspired tones, and simple abstractions that create atmospheres of calm elegance.
+        </p>
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          Rugs designed for Japandi interiors typically feature flatweaves or low-pile handwoven constructions in natural fibers. These pieces embody the philosophy of "less is more"—each element carefully considered, each color chosen for its ability to soothe rather than stimulate. The result is spaces that feel effortlessly refined, where beauty emerges from simplicity and quality rather than ornamentation.
+        </p>
+
+        <h2 class="text-3xl font-bold text-white mb-6">Modern Reinterpretation of Heritage</h2>
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          Traditional rug artistry is experiencing a renaissance through contemporary reinterpretation. Classic Persian and Oriental motifs are returning to prominence, but transformed—rendered in muted greys, soft browns, and washed-out earth tones rather than traditional vivid reds and royal blues. This modern-oriental fusion appeals to buyers who value cultural storytelling without overwhelming contemporary aesthetics.
+        </p>
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          These designs honor centuries of craftsmanship while speaking the visual language of today's interiors. They bridge past and present, allowing luxury homes to showcase heritage artistry that complements rather than conflicts with modern architecture and furnishings.
+        </p>
+
+        <h2 class="text-3xl font-bold text-white mb-6">Sustainability as Standard</h2>
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          Environmental consciousness has moved from niche concern to mainstream expectation. Today's consumers demand natural materials, low-impact dye processes, and ethical production methods. Premium rugs crafted from wool, jute, organic cotton, and bamboo silk represent more than aesthetic choices—they embody values of responsibility and mindful consumption.
+        </p>
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          Undyed wool in cream and beige tones has emerged as a global trend, offering purity, softness, and sustainability in one package. These natural fibers age beautifully, developing character over time while maintaining their essential qualities. For discerning buyers, sustainability and luxury are no longer separate considerations—they're inseparable aspects of truly premium design.
+        </p>
+
+        <h2 class="text-3xl font-bold text-white mb-6">The Hospitality-Grade Evolution</h2>
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          Commercial spaces—hotels, resorts, luxury offices—require rugs that combine visual elegance with exceptional durability. High-density, low-pile constructions in performance fibers now deliver both beauty and resilience, withstanding heavy foot traffic, frequent cleaning, and constant use without compromising appearance.
+        </p>
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          This evolution benefits residential buyers as well. The same qualities that make hospitality-grade rugs practical for commercial use—stain resistance, color retention, structural integrity—translate into long-term value for homes. These pieces represent investments that maintain their beauty across decades, not just seasons.
+        </p>
+
+        <h2 class="text-3xl font-bold text-white mb-6">Customization and Personal Expression</h2>
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          The future of luxury lies in personalization. Modern buyers seek rugs tailored to their specific spatial proportions, color preferences, and design visions. Custom weaving allows designers and homeowners to create truly unique pieces—matching exact dimensions, selecting precise colorways, and incorporating personal motifs that reflect individual stories.
+        </p>
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          This shift from mass production to bespoke creation elevates rugs from products to collaborations. Each custom piece becomes a reflection of its owner's aesthetic sensibility and lifestyle needs, ensuring perfect integration with existing architecture and furnishings.
+        </p>
+
+        <h2 class="text-3xl font-bold text-white mb-6">The Path Forward</h2>
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          As we navigate 2025 and 2026, successful rug design requires balancing traditional craftsmanship with evolving aesthetic expectations. The market values simplicity without sterility, texture over pattern, natural materials, and designs that enhance rather than dominate spaces. The brands that will shape tomorrow's interiors are those that anticipate rather than react—understanding that luxury now means thoughtful restraint, sustainable practices, and timeless quality that transcends fleeting trends.
+        </p>
+        <p class="text-white/90 text-lg leading-relaxed mb-8">
+          In this transformed landscape, rugs are no longer afterthoughts—they're foundational design elements that define how spaces feel, function, and endure. The future belongs to pieces that honor heritage while embracing innovation, that prioritize sensory experience alongside visual beauty, and that recognize luxury begins not with excess but with intention.
+        </p>
+      </div>
+    `,
+    date: 'Nov 15 2025',
+    category: 'Design Tips',
+    readTime: '10 min read',
+    image: '/blog4.jpg'
+  },
   {
     slug: 'art-of-luxury-hand-knotted-rugs',
     title: 'The Art of Luxury: How Hand-Knotted Rugs Define Sophisticated Interiors',
