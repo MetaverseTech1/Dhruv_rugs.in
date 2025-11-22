@@ -297,7 +297,95 @@ export const blogPosts = [
     category: 'Design Tips',
     readTime: '10 min read',
     image: '/blog4.jpg'
-  }
+  },
+  {
+  slug: 'handmade-rugs-bhadohi-global-weaving-legacy',
+  title: 'Handmade Carpets and Rugs Manufacturing in Bhadohi: The Heart of India’s Global Weaving Legacy',
+  excerpt: 'Explore how Bhadohi, India’s renowned Carpet Capital, continues to dominate the global handmade rug industry through centuries-old craftsmanship, ethical production, and world-class artistry.',
+  content: `
+    <div class="prose prose-lg max-w-none">
+      <p class="text-white/90 text-lg leading-relaxed mb-8">
+        Bhadohi, widely known as the Carpet Capital of India, is a region where centuries-old craftsmanship, tradition, and artistry come together to create some of the world’s finest handmade carpets and rugs. Every loom, knot, and pattern reflects generations of skill passed down through artisan families who have preserved this cultural legacy with remarkable dedication. Today, Bhadohi is not just a national treasure—it is a global powerhouse supplying premium handmade rugs to the USA, Europe, the Middle East, and other international markets.
+      </p>
+
+      <h2 class="text-3xl font-bold text-white mb-6">A Heritage Woven Over Centuries</h2>
+      <p class="text-white/90 text-lg leading-relaxed mb-8">
+        Carpet weaving in Bhadohi dates back to the Mughal era, when Persian artisans introduced intricate weaving traditions to India. Over time, these techniques blended with local creativity, forming a distinct Indian artistic signature found nowhere else in the world. Tens of thousands of artisans—men, women, and apprentices—continue this legacy, mastering skills learned not in classrooms but through lived tradition.
+      </p>
+
+      <h2 class="text-3xl font-bold text-white mb-6">The Handmade Process: A Symphony of Skill</h2>
+      <p class="text-white/90 text-lg leading-relaxed mb-8">
+        Handmade carpets from Bhadohi are crafted through a meticulous, multi-step process requiring months of effort:
+      </p>
+
+      <ul class="text-white/90 text-lg leading-relaxed mb-8 list-disc pl-6">
+        <li><strong>Designing:</strong> Custom motifs, modern and traditional patterns, and international trend collaboration.</li>
+        <li><strong>Dyeing:</strong> Natural and low-impact dyes ensure color richness and longevity.</li>
+        <li><strong>Loom Setup:</strong> Precision determines rug density, dimensions, and structure.</li>
+        <li><strong>Knotting & Weaving:</strong> Each knot is hand-tied; a single rug may contain millions of knots.</li>
+        <li><strong>Clipping & Washing:</strong> Enhances sheen, softness, and texture.</li>
+        <li><strong>Finishing:</strong> Latex application (for tufted rugs), stretching, edging, and fringe work.</li>
+        <li><strong>Quality Check & Packaging:</strong> Ensures export-grade standards.</li>
+      </ul>
+
+      <p class="text-white/90 text-lg leading-relaxed mb-8">
+        This slow, soulful process makes Bhadohi rugs timeless pieces of art rather than textile products.
+      </p>
+
+      <h2 class="text-3xl font-bold text-white mb-6">A Global Export Powerhouse</h2>
+      <p class="text-white/90 text-lg leading-relaxed mb-8">
+        Bhadohi is India's largest handmade rug export hub. Buyers from the USA, Germany, UAE, UK, Italy, China, Australia, and Japan trust Bhadohi for unmatched craftsmanship, competitive pricing, customization, and ethical production. International trade fairs such as Domotex and global design expos consistently highlight Bhadohi rugs as premium luxury décor products.
+      </p>
+
+      <h2 class="text-3xl font-bold text-white mb-6">Modern Designs Meet Traditional Excellence</h2>
+      <p class="text-white/90 text-lg leading-relaxed mb-8">
+        While traditional Persian, Mughal, and Oriental designs remain iconic, Bhadohi’s designers now excel in contemporary aesthetics:
+      </p>
+
+      <ul class="text-white/90 text-lg leading-relaxed mb-8 list-disc pl-6">
+        <li>Minimalist geometric patterns</li>
+        <li>Japandi-inspired textures</li>
+        <li>Organic gradients</li>
+        <li>Monochrome modernism</li>
+        <li>High-low sculpted textures</li>
+      </ul>
+
+      <h2 class="text-3xl font-bold text-white mb-6">Sustainable and Ethical Craftsmanship</h2>
+      <p class="text-white/90 text-lg leading-relaxed mb-8">
+        Sustainability is woven into Bhadohi’s identity. Handweaving uses natural fibers like wool, silk, jute, and bamboo silk while producing minimal carbon footprint. Many manufacturers now use eco-friendly dyes, water recycling, and renewable materials—all while supporting artisan families with fair labor practices.
+      </p>
+
+      <h2 class="text-3xl font-bold text-white mb-6">Customization: Bhadohi’s Signature Strength</h2>
+      <p class="text-white/90 text-lg leading-relaxed mb-8">
+        Bhadohi excels in creating fully custom, project-specific rugs for villas, hotels, offices, and luxury residences worldwide. This includes custom shapes, sizes, colors, textures, and patterns crafted to match architectural and interior design requirements.
+      </p>
+
+      <h2 class="text-3xl font-bold text-white mb-6">Why Bhadohi Rugs Are Valued Globally</h2>
+      <ul class="text-white/90 text-lg leading-relaxed mb-8 list-disc pl-6">
+        <li>Authentic artisan craftsmanship</li>
+        <li>Luxury aesthetics with cultural heritage</li>
+        <li>Durability that lasts decades</li>
+        <li>Natural fibers and sustainable processes</li>
+        <li>High customization capabilities</li>
+        <li>Investment value as handmade art pieces</li>
+      </ul>
+
+      <h2 class="text-3xl font-bold text-white mb-6">The Future of Bhadohi’s Rug Industry</h2>
+      <p class="text-white/90 text-lg leading-relaxed mb-8">
+        Bhadohi continues to blend tradition with innovation—adopting digital visualization tools, modern designs, sustainable practices, and stronger global collaborations. As global trends shift toward minimalism, textured luxury, and bespoke craftsmanship, Bhadohi’s artisans stand perfectly aligned with the future of interior design.
+      </p>
+
+      <p class="text-white text-xl font-semibold leading-relaxed">
+        Bhadohi is not just a carpet-making region—it is a global cultural asset, preserving the art of handmade weaving and delivering conscious luxury to the world.
+      </p>
+    </div>
+  `,
+  date: 'Nov 22 2025',
+  category: 'News',
+  readTime: '9 min read',
+  image: '/blog5.png'
+}
+
 ];
 
 export const categories = [
