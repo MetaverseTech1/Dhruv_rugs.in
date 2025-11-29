@@ -1,20 +1,20 @@
-import Link from 'next/link';
-import BlogCard from '@/components/BlogCard';
-import { blogPosts } from '@/lib/blogData';
+import Link from "next/link";
+import BlogCard from "@/components/BlogCard";
+import { blogPosts } from "@/lib/blogData";
 
 function TailwindTest() {
   return (
     <div className="bg-red-500 p-4 m-4 text-white">
       <h1 className="text-2xl font-bold">TAILWIND TEST</h1>
-      <p className="text-sm">If this has a red background, Tailwind is working!</p>
+      <p className="text-sm">
+        If this has a red background, Tailwind is working!
+      </p>
     </div>
-  )
+  );
 }
 
 export default function HomePage() {
   return (
-
-    
     <div className="max-w-7xl mx-auto px-6 pt-32 pb-16">
       {/* Hero Section */}
       <div className="text-center mb-20 animate-slideUp">
@@ -23,13 +23,15 @@ export default function HomePage() {
             Luxury Rugs
           </span>
           <br />
-           <span className="text-white">& Stories</span>
+          <span className="text-white">& Stories</span>
         </h1>
         <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-12 leading-relaxed">
-          Discover the art of handwoven perfection. From traditional Persian designs to contemporary masterpieces, explore our world of premium carpets and rugs.
+          Discover the art of handwoven perfection. From traditional Persian
+          designs to contemporary masterpieces, explore our world of premium
+          carpets and rugs.
         </p>
-        <Link 
-          href="/blog" 
+        <Link
+          href="/blog"
           className="inline-block bg-gradient-to-r from-orange-500 to-red-600 text-white px-10 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-orange-500/25 transition-all duration-300 hover:scale-105 animate-glow"
         >
           Explore Blogs
@@ -38,11 +40,15 @@ export default function HomePage() {
 
       {/* Featured Posts */}
       <div className="mb-16">
-        <h2 className="text-4xl font-bold text-white text-center mb-12">Featured Articles</h2>
+        <h2 className="text-4xl font-bold text-white text-center mb-12">
+          Featured Articles
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {blogPosts.map((post) => (
-            <BlogCard key={post.slug} post={post} />
-          ))}
+          {[...blogPosts]
+            .sort((a, b) => new Date(b.date) - new Date(a.date))
+            .map((post) => (
+              <BlogCard key={post.slug} post={post} />
+            ))}
         </div>
       </div>
 

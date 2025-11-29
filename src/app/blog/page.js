@@ -10,25 +10,28 @@ export default function BlogPage() {
   const [activeCategory, setActiveCategory] = useState('All Posts');
   const searchQuery = searchParams.get('search');
 
-  useEffect(() => {
-    let filtered = [...blogPosts];
+useEffect(() => {
+  let filtered = [...blogPosts];
 
-    // Apply search filter
-    if (searchQuery) {
-      filtered = filtered.filter(post => 
-        post.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        post.excerpt.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        post.category.toLowerCase().includes(searchQuery.toLowerCase())
-      );
-    }
+  // Apply search filter
+  if (searchQuery) {
+    filtered = filtered.filter(post => 
+      post.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      post.excerpt.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      post.category.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+  }
 
-    // Apply category filter
-    if (activeCategory !== 'All Posts') {
-      filtered = filtered.filter(post => post.category === activeCategory);
-    }
+  // Apply category filter
+  if (activeCategory !== 'All Posts') {
+    filtered = filtered.filter(post => post.category === activeCategory);
+  }
 
-    setFilteredPosts(filtered);
-  }, [searchQuery, activeCategory]);
+  // ⭐ Sort by latest first — important
+  filtered.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  setFilteredPosts(filtered);
+}, [searchQuery, activeCategory]);
 
   return (
     <div className="max-w-7xl mx-auto px-6 pt-32 pb-16">
