@@ -384,7 +384,142 @@ export const blogPosts = [
   category: 'News',
   readTime: '9 min read',
   image: '/blog5.png'
+},
+{
+  slug: 'india-carpet-expo-2026-dhruvrugs-global',
+  title: '50th India Carpet Expo 2026 – DhruvRugs.global Confirms Exhibition at India’s Most Iconic Handmade Carpet Trade Fair',
+  excerpt: 'DhruvRugs.global officially confirms its participation at the 50th India Carpet Expo 2026 — a historic milestone celebrating Indian handmade carpet excellence and global design collaboration.',
+  content: `
+    <div class="prose prose-lg max-w-none">
+
+      <p class="text-white/90 text-lg leading-relaxed mb-8">
+        The India Carpet Expo continues to be one of the most influential business platforms in the international handmade rug and flooring segment. Hosted by the Carpet Export Promotion Council (CEPC) under the Ministry of Textiles, Government of India, the expo unites manufacturers, exporters, global buyers, interior firms, hospitality design studios, and premium décor brands from around the world.
+      </p>
+
+      <p class="text-white/90 text-lg leading-relaxed mb-8">
+        The year 2026 marks a golden milestone — the <strong>50th edition</strong> of the expo, scheduled from <strong>11th to 14th April 2026</strong> at NSIC Exhibition Complex, Okhla, New Delhi.
+      </p>
+
+      <p class="text-white/90 text-lg leading-relaxed mb-8">
+        DhruvRugs.global proudly announces its confirmed participation at this landmark event. With CEPC’s official invitation and a confirmed exhibition slot, the brand now stands among the finest creators in the Indian handmade carpet industry. This edition, expected to attract thousands of international buyers, represents a celebration of artistry, innovation, and global collaboration.
+      </p>
+
+      <h2 class="text-3xl font-bold text-white mb-6">A Milestone for the Industry — and a Moment of Pride for DhruvRugs.global</h2>
+
+      <p class="text-white/90 text-lg leading-relaxed mb-8">
+        Bhadohi — globally known as the Carpet City of India — has shaped India’s legacy in handmade rug exports. Deeply rooted in Bhadohi’s traditional weaving culture, DhruvRugs.global will use this platform to showcase the true soul of Indian craftsmanship on a global stage.
+      </p>
+
+      <p class="text-white/90 text-lg leading-relaxed mb-8">
+        The 50th edition is more than a trade event — it symbolizes global respect, rising demand, and the evolution of India’s handmade carpet exports. DhruvRugs.global’s participation reaffirms its commitment to luxury craftsmanship, ethical production, and design innovation.
+      </p>
+
+      <p class="text-white/90 text-lg leading-relaxed mb-8">
+        The brand’s showcase will include:
+      </p>
+
+      <ul class="list-disc pl-6 text-white/90 text-lg leading-relaxed mb-8">
+        <li>New global design launches</li>
+        <li>Sustainability-led innovations</li>
+        <li>Exclusive customization programs</li>
+        <li>Luxury home and hospitality rug solutions</li>
+        <li>Natural wool, bamboo silk, silk & blended fiber creations</li>
+        <li>Hand-knotted, hand-tufted & flat-weave collections</li>
+      </ul>
+
+      <h2 class="text-3xl font-bold text-white mb-6">Why the India Carpet Expo Stands Apart</h2>
+
+      <p class="text-white/90 text-lg leading-relaxed mb-8">
+        Unlike international flooring fairs filled with machine-made products, the India Carpet Expo is dedicated exclusively to handmade excellence.
+      </p>
+
+      <p class="text-white/90 text-lg leading-relaxed mb-8">
+        Major buyers are expected from:
+      </p>
+
+      <ul class="list-disc pl-6 text-white/90 text-lg leading-relaxed mb-8">
+        <li>USA, Europe & UK</li>
+        <li>UAE, Qatar, Saudi Arabia, Kuwait & Bahrain</li>
+        <li>Japan, Korea, Singapore & Malaysia</li>
+        <li>Australia & New Zealand</li>
+        <li>Latin America</li>
+        <li>Africa</li>
+      </ul>
+
+      <p class="text-white/90 text-lg leading-relaxed mb-8">
+        DhruvRugs.global aims to collaborate with:
+      </p>
+
+      <ul class="list-disc pl-6 text-white/90 text-lg leading-relaxed mb-8">
+        <li>Luxury villa & penthouse designers</li>
+        <li>Boutique hotel project consultancies</li>
+        <li>Furniture & décor houses</li>
+        <li>Interior architecture studios</li>
+        <li>Premium department stores & flooring chains</li>
+        <li>High-end lifestyle concept stores</li>
+      </ul>
+
+      <h2 class="text-3xl font-bold text-white mb-6">DhruvRugs.global – Where Craft, Design & Purpose Unite</h2>
+
+      <p class="text-white/90 text-lg leading-relaxed mb-8">
+        The 2026 exhibition highlights three guiding pillars of the brand:
+      </p>
+
+      <ul class="list-disc pl-6 text-white/90 text-lg leading-relaxed mb-8">
+        <li><strong>Craftsmanship:</strong> Rugs handcrafted by master artisans with deep generational expertise.</li>
+        <li><strong>Design:</strong> Sculpted textures, Japandi neutrals, organic curved rugs, modern minimalism & bold artistic accents.</li>
+        <li><strong>Sustainability:</strong> Natural fibers, clean dyeing, ethical sourcing & fair wages for artisan families.</li>
+      </ul>
+
+      <h2 class="text-3xl font-bold text-white mb-6">What Visitors Can Expect — A Sneak Peek</h2>
+
+      <ul class="list-disc pl-6 text-white/90 text-lg leading-relaxed mb-8">
+        <li><strong>1. Textural Luxury</strong> — Deep tactile rugs redefining comfort & warmth.</li>
+        <li><strong>2. Organic Shapes & Sculpted Curves</strong> — Free-form silhouettes for modern interiors.</li>
+        <li><strong>3. Heritage Meets Modernity</strong> — Traditional motifs reimagined with soothing palettes.</li>
+        <li><strong>4. Hospitality Performance Rugs</strong> — Commercial-grade durability with luxury appeal.</li>
+        <li><strong>5. Sustainable Naturals</strong> — Undyed wool, earthy tones & plant-based palettes.</li>
+        <li><strong>6. Designer Partnership Program</strong> — A new initiative for co-created custom rug concepts.</li>
+      </ul>
+
+      <h2 class="text-3xl font-bold text-white mb-6">Beyond Commerce — Celebrating the Artisans of Bhadohi</h2>
+
+      <p class="text-white/90 text-lg leading-relaxed mb-8">
+        Every rug is a reflection of an artisan’s life, culture, and dedication. DhruvRugs.global sees this expo as an opportunity to uplift these communities by increasing demand, ensuring income growth, and preserving generational craftsmanship.
+      </p>
+
+      <h2 class="text-3xl font-bold text-white mb-6">Future Vision — A Global Leap Forward</h2>
+
+      <p class="text-white/90 text-lg leading-relaxed mb-8">
+        The expo is expected to unlock opportunities in:
+      </p>
+
+      <ul class="list-disc pl-6 text-white/90 text-lg leading-relaxed mb-8">
+        <li>Luxury hospitality projects worldwide</li>
+        <li>Designer-led customization partnerships</li>
+        <li>International retail & wholesale networks</li>
+        <li>Lifestyle & décor brand collaborations</li>
+        <li>Premium home e-commerce expansion</li>
+      </ul>
+
+      <h2 class="text-3xl font-bold text-white mb-6">Conclusion – A New Chapter in Indian Handmade Carpets</h2>
+
+      <p class="text-white/90 text-lg leading-relaxed mb-8">
+        The 50th India Carpet Expo marks a historic milestone for the handmade carpet industry — and a proud moment for DhruvRugs.global. As the world moves toward sustainable, authentic, warmth-driven design, handmade carpets are reclaiming their place in modern luxury.
+      </p>
+
+      <p class="text-white text-xl font-semibold leading-relaxed mb-6">
+        DhruvRugs.global is honored to represent Bhadohi’s timeless artistry on this global platform — shaping the future of handmade luxury, one rug at a time.
+      </p>
+
+    </div>
+  `,
+  date: 'Apr 11 2026',
+  category: 'News',
+  readTime: '10 min read',
+  image: '/blog6.jpg'
 }
+
 
 ];
 
@@ -392,6 +527,6 @@ export const categories = [
   { name: 'Persian Rugs', count: 0, color: 'from-orange-400 to-red-600' },
   { name: 'Design Tips', count: 3, color: 'from-blue-400 to-purple-600' },
   { name: 'Care Guide', count: 0, color: 'from-green-400 to-teal-600' },
-  { name: 'News', count: 1, color: 'from-purple-400 to-pink-600' },
+  { name: 'News', count: 2, color: 'from-purple-400 to-pink-600' },
   { name: 'Luxury Craftsmanship', count: 1, color: 'from-amber-400 to-orange-600' }
 ];
