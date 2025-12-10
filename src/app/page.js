@@ -15,32 +15,32 @@ function TailwindTest() {
 
 export default function HomePage() {
   return (
-    <div className="max-w-7xl mx-auto px-6 pt-32 pb-16">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-24 sm:pt-28 md:pt-32 pb-12 md:pb-16">
       {/* Hero Section */}
-      <div className="text-center mb-20 animate-slideUp">
-        <h1 className="text-6xl md:text-8xl font-black text-white mb-6 leading-tight">
+      <div className="text-center mb-12 md:mb-20 animate-slideUp">
+        <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-black text-white mb-4 md:mb-6 leading-tight">
           <span className="bg-gradient-to-r from-white via-orange-200 to-white bg-clip-text text-transparent">
             Luxury Rugs
           </span>
           <br />
           <span className="text-white">& Stories</span>
         </h1>
-        <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-12 leading-relaxed">
+        <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 max-w-3xl mx-auto mb-8 md:mb-12 leading-relaxed px-4">
           Discover the art of handwoven perfection. From traditional Persian
           designs to contemporary masterpieces, explore our world of premium
           carpets and rugs.
         </p>
         <Link
           href="/blog"
-          className="inline-block bg-gradient-to-r from-orange-500 to-red-600 text-white px-10 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-orange-500/25 transition-all duration-300 hover:scale-105 animate-glow"
+          className="inline-block bg-gradient-to-r from-orange-500 to-red-600 text-white px-6 py-3 md:px-10 md:py-4 rounded-full font-bold text-sm md:text-lg shadow-2xl hover:shadow-orange-500/25 transition-all duration-300 hover:scale-105 animate-glow"
         >
           Explore Blogs
         </Link>
       </div>
 
       {/* Featured Posts */}
-      <div className="mb-16">
-        <h2 className="text-4xl font-bold text-white text-center mb-12">
+      <div className="mb-12 md:mb-16">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white text-center mb-8 md:mb-12">
           Featured Articles
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

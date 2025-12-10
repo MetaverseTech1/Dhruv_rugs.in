@@ -16,7 +16,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           {/* Logo Text - Highlighted */}
           <Link href="/" className="flex items-center group">
-            <span className="text-3xl font-black bg-gradient-to-r from-orange-400 to-red-600 bg-clip-text text-transparent group-hover:scale-105 transition-transform duration-300">
+            <span className="text-xl sm:text-2xl md:text-3xl font-black bg-gradient-to-r from-orange-400 to-red-600 bg-clip-text text-transparent group-hover:scale-105 transition-transform duration-300">
               DHRUV
             </span>
           </Link>

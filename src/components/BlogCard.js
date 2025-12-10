@@ -43,21 +43,21 @@ export default function BlogCard({ post }) {
           )}
         </div>
 
-        <div className="p-8">
-          <div className="flex items-center space-x-4 text-white/70 text-sm mb-4">
+        <div className="p-5 md:p-8">
+          <div className="flex flex-wrap items-center gap-2 md:space-x-4 text-white/70 text-xs md:text-sm mb-3 md:mb-4">
             <span>{post.date}</span>
             <span>•</span>
             <span>{post.category}</span>
             <span>•</span>
             <span>{post.readTime}</span>
           </div>
-          <h2 className="text-2xl font-bold text-white mb-4 group-hover:text-orange-300 transition-colors duration-300">
+          <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-white mb-3 md:mb-4 group-hover:text-orange-300 transition-colors duration-300">
             {post.title}
           </h2>
-          <p className="text-white/80 mb-6 line-clamp-3">
+          <p className="text-sm md:text-base text-white/80 mb-4 md:mb-6 line-clamp-3">
             {post.excerpt}
           </p>
-          <span className="text-orange-400 font-semibold group-hover:text-orange-300 transition-colors duration-300 inline-flex items-center">
+          <span className="text-sm md:text-base text-orange-400 font-semibold group-hover:text-orange-300 transition-colors duration-300 inline-flex items-center">
             Read More <span className="ml-2 group-hover:translate-x-2 transition-transform duration-300">→</span>
           </span>
         </div>
