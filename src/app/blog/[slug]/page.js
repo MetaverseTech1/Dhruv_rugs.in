@@ -14,7 +14,7 @@ export default function BlogPostPage({ params }) {
 
   // Get subdomain URL for sharing (e.g., https://slug.dhruvrugs.global)
   const shareUrl = typeof window !== 'undefined' 
-    ? `https://${params.slug}.dhruvrugs.global`
+    ? `https://blog.dhruvrugs.in/blog/${params.slug}`
     : '';
   const shareTitle = post.title;
 
