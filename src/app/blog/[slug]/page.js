@@ -114,7 +114,7 @@ export default function BlogPostPage({ params }) {
 
       {/* Article Content */}
       <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12">
-        <div className="prose prose-sm sm:prose-base md:prose-lg prose-invert max-w-none" dangerouslySetInnerHTML={{ __html: post.content }} />
+        <div className="prose prose-sm sm:prose-base md:prose-lg  prose-invert max-w-none" dangerouslySetInnerHTML={{ __html: post.content }} />
         
         {/* Share Section - Centered & Attractive */}
         <div className="mt-10 md:mt-16 pt-6 md:pt-10 border-t border-white/30">
