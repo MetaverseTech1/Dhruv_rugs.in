@@ -518,14 +518,94 @@ export const blogPosts = [
   category: 'News',
   readTime: '10 min read',
   image: '/blog6.jpg'
+},
+{
+  slug: 'italian-interior-design-timeless-elegance-craftsmanship',
+  title: 'Italian Interior Design: Timeless Elegance, Craftsmanship, and the Art of Living',
+  excerpt: 'Italian interior design is a celebration of balance, material excellence, and human-centered spaces—where centuries of craftsmanship meet modern living with effortless elegance.',
+  content: `
+    <div class="prose prose-lg max-w-none">
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Italian interior design is widely regarded as one of the most refined and enduring design philosophies in the world. Rather than following short-lived trends, it is rooted in centuries of art, architecture, craftsmanship, and cultural identity. Italian interiors are shaped by a deep understanding of proportion, balance, material quality, and human experience. More than a visual language, Italian interior design represents a way of living—one that values comfort, authenticity, and emotional connection to space.
+      </p>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        From sunlit Tuscan villas and historic Florentine palazzos to sleek contemporary homes in Milan and Rome, Italian interiors reflect a harmonious blend of tradition and modernity. Each space tells a story influenced by geography, climate, history, and lifestyle. This layered design approach has positioned Italy as a global benchmark for interior excellence, inspiring architects and designers worldwide.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Design Rooted in Living, Not Display</h2>
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        At the heart of Italian interior design lies a simple but powerful belief: spaces should be lived in, not merely admired. Comfort, functionality, and warmth are treated as essential elements of luxury. Italian interiors invite people to relax, gather, and experience daily life with ease and pleasure.
+      </p>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Balance and restraint guide every decision. Rooms are thoughtfully proportioned to encourage natural movement and visual harmony. Rather than overcrowding, Italian design favors clarity and openness, allowing each element to breathe and contribute meaningfully to the overall composition.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Historical Influence and Timeless Expression</h2>
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Italian interior design is deeply shaped by history. Roman architecture introduced symmetry, scale, and order. The Renaissance refined balance, artistry, and beauty in everyday life. Baroque influences added richness, texture, and dramatic contrast. Contemporary Italian interiors draw inspiration from these eras without imitation, resulting in spaces that feel timeless yet relevant.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Materials as the Foundation of Luxury</h2>
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Natural materials define Italian interiors. Marble, travertine, limestone, and terrazzo are commonly used for floors and surfaces, reflecting light beautifully while conveying permanence and elegance. Wood—especially walnut, oak, and chestnut—adds warmth, texture, and depth.
+      </p>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Textiles balance these solid materials. Linen, wool, silk, cotton, and leather introduce softness and tactile comfort. Italian design values materials that age gracefully, where patina and wear enhance character rather than diminish beauty.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Color, Furniture, and Spatial Harmony</h2>
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Color palettes remain refined and understated. Warm whites, stone greys, taupe, sand, and beige form calm foundations, while earthy tones—terracotta, olive green, muted blues—add depth without overwhelming the space.
+      </p>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Furniture is treated as an architectural element. Italian furniture is globally admired for precision, comfort, and craftsmanship. Spaces are furnished with fewer but higher-quality pieces, each chosen for proportion, ergonomics, and timeless appeal.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Textiles, Rugs, and Lighting</h2>
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Rugs play a vital role in Italian interiors—anchoring furniture, defining zones, softening acoustics, and adding warmth to stone or wood floors. Handmade rugs with subtle textures and muted palettes align seamlessly with Italian design principles, enhancing spaces without dominating them.
+      </p>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Lighting is layered and intentional. Ambient, task, and accent lighting work together to create atmosphere, highlight materials, and enhance architectural details. Light is treated as a design material in itself.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Indoor–Outdoor Connection and Sustainability</h2>
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Italian interiors maintain a strong relationship with the outdoors. Large windows, terraces, courtyards, and balconies blur boundaries between interior and exterior, maximizing natural light and reinforcing a connection to nature.
+      </p>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Sustainability has always been embedded in Italian design thinking. Durable materials, timeless aesthetics, and quality craftsmanship reduce waste and promote longevity. Today, ethical sourcing and responsible production further reinforce this philosophy.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">A Philosophy That Endures</h2>
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Italian interior design offers more than style—it offers a way of living. It proves that true luxury lies in quality, balance, and thoughtful composition rather than excess. In a rapidly changing design world, Italian interiors remain timeless because they are deeply human.
+      </p>
+
+      <p class="text-white text-xl font-semibold leading-relaxed">
+        Italian interior design is ultimately a celebration of life itself—spaces designed to be lived in, enjoyed, and cherished over time.
+      </p>
+    </div>
+  `,
+  date: 'Dec 05 2025',
+  category: 'Design Tips',
+  readTime: '9 min read',
+  image: '/blog7.png'
 }
+
 
 
 ];
 
 export const categories = [
   { name: 'Persian Rugs', count: 0, color: 'from-orange-400 to-red-600' },
-  { name: 'Design Tips', count: 3, color: 'from-blue-400 to-purple-600' },
+  { name: 'Design Tips', count: 4, color: 'from-blue-400 to-purple-600' },
   { name: 'Care Guide', count: 0, color: 'from-green-400 to-teal-600' },
   { name: 'News', count: 2, color: 'from-purple-400 to-pink-600' },
   { name: 'Luxury Craftsmanship', count: 1, color: 'from-amber-400 to-orange-600' }
