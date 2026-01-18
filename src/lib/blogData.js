@@ -775,7 +775,82 @@ export const blogPosts = [
   category: 'News',
   readTime: '8 min read',
   image: '/blog9.png'
+},
+{
+  slug: 'domotex-2026-flooring-industry-authority-dhruvrugs',
+  title: 'Domotex 2026: Where the Flooring Industry Is Judged, and Where DhruvRugs Stands with Authority',
+  excerpt: 'Domotex 2026 is not about spectacle—it is about evaluation. In an industry demanding discipline, material intelligence, and long-term reliability, DhruvRugs stands prepared with clarity, control, and conviction.',
+  content: `
+    <div class="prose prose-lg max-w-none">
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Domotex 2026 does not exist to impress. It exists to evaluate. In a global flooring industry saturated with repetition and surface-level storytelling, Domotex remains the only platform where materials, craftsmanship, and manufacturing discipline are tested against global expectations. It is where brands are measured for seriousness, not visibility, and where quality is no longer a claim but a requirement.
+      </p>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        By 2026, the flooring and carpet sector has entered a decisive phase. Buyers are no longer negotiating aesthetics alone. Architects, hospitality groups, and procurement leaders now demand performance, consistency, and long-term reliability. Flooring has moved beyond decoration into architectural responsibility—defining how spaces feel, perform, and endure.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Domotex as an Industry Checkpoint</h2>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Domotex has evolved into an uncompromising industry checkpoint. Global manufacturers are assessed on whether they are prepared for the next decade or still operating within outdated frameworks. Design excess has lost relevance. Volume without control has become a liability. What matters now is material intelligence, surface discipline, and the ability to deliver luxury that maintains integrity over time.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">The New Language of Carpets and Rugs</h2>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Carpets and rugs are no longer ornamental layers added at the end of a project. They are structural elements influencing acoustics, spatial hierarchy, and emotional comfort. The dominant design language at Domotex 2026 is controlled and intentional—texture replaces pattern, neutral palettes replace visual noise, and density, balance, and tactile depth define modern luxury.
+      </p>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        In this environment, quality is not an advantage—it is the baseline. Manufacturers unable to demonstrate consistency in construction, integrity in materials, and discipline in finishing are simply excluded. Domotex makes this distinction clear.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Where DhruvRugs Enters with Strength</h2>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Rooted in Bhadohi, a region globally respected for handmade carpet expertise, DhruvRugs represents a new generation of Indian manufacturers who have moved beyond legacy positioning. The brand presents craftsmanship not as nostalgia, but as a controlled, modern, high-performance discipline aligned with global flooring expectations.
+      </p>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        At DhruvRugs, yarn selection is treated as a strategic decision, not sourcing convenience. Density is engineered, not accidental. Finishing is structural, not decorative. The result is rugs that carry presence, durability, and performance without relying on loud design language.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Design with Architectural Awareness</h2>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        DhruvRugs’ design philosophy mirrors Domotex’s global direction with precision. The brand does not chase trends or exaggerate originality. Instead, it operates with restraint, confidence, and architectural sensitivity. Palettes remain mineral-driven and controlled, textures are refined rather than overstated, and each design integrates seamlessly into space.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Operational Readiness as a Luxury Standard</h2>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        In an industry challenged by supply instability, DhruvRugs demonstrates operational clarity—depth in stock, consistency across collections, and the ability to support long-term global demand. Reliability is no longer optional; it is a prerequisite. DhruvRugs operates with this understanding embedded into its structure.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Domotex 2026: Readiness Revealed</h2>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Domotex does not crown winners—it reveals readiness. It exposes which brands are built for scrutiny, scale, and longevity. In this environment, DhruvRugs stands not as an emerging name seeking attention, but as a manufacturer prepared to stand alongside global leaders with confidence and control.
+      </p>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        The message from Domotex 2026 is uncompromising: luxury is no longer loud, quality is no longer negotiable, and brands unwilling to evolve will not survive.
+      </p>
+
+      <p class="text-white text-xl font-semibold leading-relaxed">
+        DhruvRugs is evolving with clarity, discipline, and conviction—aligned with the future Domotex continues to define.
+      </p>
+
+    </div>
+  `,
+  date: 'Jan 25 2026',
+  category: 'News',
+  readTime: '9 min read',
+  image: '/blog10.jpg'
 }
+
 
 
 
@@ -787,6 +862,6 @@ export const categories = [
   { name: 'Persian Rugs', count: 0, color: 'from-orange-400 to-red-600' },
   { name: 'Design Tips', count: 4, color: 'from-blue-400 to-purple-600' },
   { name: 'Care Guide', count: 0, color: 'from-green-400 to-teal-600' },
-  { name: 'News', count: 4, color: 'from-purple-400 to-pink-600' },
+  { name: 'News', count: 5, color: 'from-purple-400 to-pink-600' },
   { name: 'Luxury Craftsmanship', count: 1, color: 'from-amber-400 to-orange-600' }
 ];
