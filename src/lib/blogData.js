@@ -848,7 +848,7 @@ export const blogPosts = [
   date: 'Jan 25 2026',
   category: 'News',
   readTime: '9 min read',
-  image: '/blog10.jpg'
+  image: '/blog10.png'
 }
 
 
