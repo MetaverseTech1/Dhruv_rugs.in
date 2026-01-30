@@ -849,7 +849,79 @@ export const blogPosts = [
   category: 'News',
   readTime: '9 min read',
   image: '/blog10.png'
+},
+{
+  slug: 'ihgf-2026-craft-culture-global-trade',
+  title: 'IHGF 2026: A Grand Celebration of Craft, Culture, and Global Trade',
+  excerpt: 'IHGF 2026 brings together Indian craftsmanship, sustainability, innovation, and global trade—setting new benchmarks for the future of handmade and lifestyle sourcing.',
+  content: `
+    <div class="prose prose-lg max-w-none">
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Every year, the Indian Handicrafts and Gifts Fair (IHGF) brings together the soul of Indian craftsmanship and the spirit of global trade under one monumental roof. As IHGF 2026 approaches, anticipation feels stronger than ever. More than an exhibition, it is a cultural festival, a business hub, and a creative playground for artisans, exporters, designers, and buyers from across the world.
+      </p>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Over the years, IHGF has evolved from a niche sourcing platform into one of the world’s most influential trade fairs for handicrafts and lifestyle products. The 2026 edition promises to set new benchmarks in scale, innovation, sustainability, and global impact.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Where Heritage Meets Modern Design</h2>
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        IHGF 2026 highlights how traditional craftsmanship can coexist with contemporary design sensibilities. The fair now reflects modern aesthetics, sustainable materials, and technology-driven business practices—positioning itself as both a cultural showcase and a future-facing global marketplace.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">A Visual Journey Through India’s Craft Map</h2>
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        From hand-woven textiles and intricately carved wooden décor to metalware, eco-friendly fashion accessories, and minimalist home décor, IHGF becomes a visual journey through India’s diverse cultural heritage. Each product tells a story of generations of craftsmanship, regional identity, and artistic tradition.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Sustainability at the Core</h2>
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Sustainability stands as one of the defining pillars of IHGF 2026. Exhibitors increasingly showcase responsibly sourced materials, recycled components, natural dyes, organic fibers, reclaimed wood, and biodegradable packaging. The fair has become a destination for buyers seeking ethically produced collections aligned with modern global values.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Digitization and Smart Trade</h2>
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        While rooted in handmade artistry, IHGF 2026 embraces digital innovation. Virtual catalogues, augmented reality previews, digital business cards, and enhanced registration and navigation tools improve buyer experience and global accessibility—ensuring Indian handicrafts remain competitive in a digital-first marketplace.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Global Buyers, Real Human Connections</h2>
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        IHGF remains a preferred destination for international buyers who value authenticity and human connection. Direct interactions with artisans and exporters allow buyers to understand regional techniques, product stories, and cultural inspiration—often leading to long-term partnerships and co-creation opportunities.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Innovation Within Tradition</h2>
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        IHGF 2026 showcases creative reinterpretations of classic Indian crafts—handwoven rugs with geometric patterns, terracotta lighting with sleek modern forms, and metal art inspired by tribal motifs with minimalist global aesthetics. Tradition becomes a foundation for innovation, not a limitation.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Knowledge, Trends & Business Growth</h2>
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Seminars, workshops, and trend presentations at IHGF 2026 cover sustainability expectations, color forecasts, retail trends, and evolving consumer behavior. These sessions empower small manufacturers and artisans to upgrade branding, adapt to global trends, and strengthen their market positioning.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Empowering Artisan Communities</h2>
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Beyond trade, IHGF plays a vital role in uplifting artisan communities across India. Export opportunities generated at the fair create employment, sustain traditional crafts, and preserve cultural heritage—ensuring handmade artistry continues to thrive in a machine-driven world.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Conclusion: A Platform Shaping the Future</h2>
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        IHGF 2026 stands as a celebration of India’s ability to bridge heritage with modernity, local craftsmanship with global aspirations, and tradition with innovation. It is more than a trade fair—it is a global stage where creativity finds opportunity and handmade artistry finds its rightful future.
+      </p>
+
+      <p class="text-white text-xl font-semibold leading-relaxed">
+        IHGF 2026 reaffirms that handmade will always have a place in the modern world—shaping the future of global handicraft trade with authenticity, responsibility, and creativity.
+      </p>
+
+    </div>
+  `,
+  date: 'Feb 2026',
+  category: 'News',
+  readTime: '10 min read',
+  image: '/blog11.jpeg'
 }
+
 
 
 
@@ -862,6 +934,6 @@ export const categories = [
   { name: 'Persian Rugs', count: 0, color: 'from-orange-400 to-red-600' },
   { name: 'Design Tips', count: 4, color: 'from-blue-400 to-purple-600' },
   { name: 'Care Guide', count: 0, color: 'from-green-400 to-teal-600' },
-  { name: 'News', count: 5, color: 'from-purple-400 to-pink-600' },
+  { name: 'News', count: 6, color: 'from-purple-400 to-pink-600' },
   { name: 'Luxury Craftsmanship', count: 1, color: 'from-amber-400 to-orange-600' }
 ];
