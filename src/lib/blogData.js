@@ -920,6 +920,80 @@ export const blogPosts = [
   category: 'News',
   readTime: '10 min read',
   image: '/blog11.jpeg'
+},
+{
+  slug: 'dhruvrugs-international-from-raw-fiber-to-refined-luxury',
+  title: 'DhruvRugs International: From Raw Fiber to Refined Luxury',
+  excerpt: 'Discover how DhruvRugs International transforms raw wool and silk into refined luxury rugs through disciplined craftsmanship, natural dyeing, precision weaving, and uncompromising quality control.',
+  content: `
+    <div class="prose prose-lg max-w-none">
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Luxury is never accidental. It is built through discipline, patience, precision, and an uncompromising respect for craftsmanship. At DhruvRugs International, every rug begins long before it reaches a loom — rooted in material intelligence, ethical sourcing, and a commitment to excellence that defines every stage of production.
+      </p>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        From the careful selection of fibers to the final refinement shaped by customer feedback, each rug represents more than technique — it reflects a philosophy that true luxury lies in process integrity.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">The Foundation: Sourcing Premium Raw Materials</h2>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        The journey begins with raw material selection. Premium wool is chosen for softness, tensile strength, and durability, while silk is selected for purity, smoothness, and luminous sheen. Cotton is often used as a structural base to enhance dimensional stability. Each fiber is inspected to ensure consistency in thickness, texture, and dye absorption capability — because superior raw material defines long-term performance and comfort.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Natural Dyeing: Where Color Meets Responsibility</h2>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        DhruvRugs International prioritizes natural dyeing techniques using plant-based sources such as roots, bark, leaves, and flowers. Temperature, immersion time, and water quality are carefully controlled to ensure deep, even color penetration while preserving fiber integrity. Natural dyes produce subtle tonal variations, creating depth, authenticity, and timeless elegance.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Weaving: The Heart of Craftsmanship</h2>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Skilled artisans transform dyed yarn into structure through hand-knotting, hand-tufting, or flat weaving. Knot density and tension are precisely controlled to ensure durability and refined texture. Depending on size and complexity, a single rug may take weeks or months to complete — a reflection of disciplined craftsmanship beyond mass production.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Washing and Stretching: Refining Structure</h2>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Controlled washing softens fibers, removes excess dye, and enhances tonal depth. The rug is then stretched to restore dimensional precision, ensuring balanced proportions, flat structure, and sharp edges.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Clipping and Carving: Surface Perfection</h2>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Skilled craftsmen trim excess fibers to achieve uniform pile height and crisp pattern definition. For dimensional designs, carving introduces sculpted texture and visual layering, allowing the rug to interact dynamically with light and space.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Finishing and Quality Control</h2>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Each rug undergoes strict inspection for structural integrity, color consistency, dimensional accuracy, and surface refinement. Only rugs meeting the highest standards proceed to packaging, reflecting the brand’s commitment to reliability and excellence.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">From Delivery to Continuous Improvement</h2>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        The journey continues beyond delivery. Feedback from architects, designers, retailers, and homeowners informs improvements in color palettes, textures, and sizing — ensuring continuous refinement and alignment with global expectations.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">Conclusion: Luxury as a Process</h2>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        From raw wool and silk to natural dyeing, disciplined weaving, precision finishing, and rigorous inspection, DhruvRugs International follows a deeply structured yet artisanal journey. Each rug carries the story of its materials, the dedication of its artisans, and the trust of its customers.
+      </p>
+
+      <p class="text-white text-xl font-semibold leading-relaxed">
+        At DhruvRugs International, luxury is not a label — it is a process, carefully crafted, thoughtfully refined, and continuously improved through craftsmanship and integrity.
+      </p>
+
+    </div>
+  `,
+  date: 'Feb 21 2026',
+  category: 'Luxury Craftsmanship',
+  readTime: '9 min read',
+  image: '/blog12.jpeg'
 }
 
 
@@ -935,5 +1009,5 @@ export const categories = [
   { name: 'Design Tips', count: 4, color: 'from-blue-400 to-purple-600' },
   { name: 'Care Guide', count: 0, color: 'from-green-400 to-teal-600' },
   { name: 'News', count: 6, color: 'from-purple-400 to-pink-600' },
-  { name: 'Luxury Craftsmanship', count: 1, color: 'from-amber-400 to-orange-600' }
+  { name: 'Luxury Craftsmanship', count: 2, color: 'from-amber-400 to-orange-600' }
 ];
