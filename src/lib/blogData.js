@@ -1,8 +1,10 @@
 export const blogPosts = [
   {
-    slug: 'art-of-luxury-hand-knotted-rugs',
-    title: 'The Art of Luxury: How Hand-Knotted Rugs Define Sophisticated Interiors',
-    excerpt: 'Discover why hand-knotted rugs remain the ultimate expression of sophistication in modern interiors, where every knot represents countless hours of artistry and heritage.',
+    slug: "art-of-luxury-hand-knotted-rugs",
+    title:
+      "The Art of Luxury: How Hand-Knotted Rugs Define Sophisticated Interiors",
+    excerpt:
+      "Discover why hand-knotted rugs remain the ultimate expression of sophistication in modern interiors, where every knot represents countless hours of artistry and heritage.",
     content: `
       <div class="prose prose-lg max-w-none">
         <p class="text-white/90  text-sm md:text-lg leading-relaxed mb-8">
@@ -26,15 +28,16 @@ export const blogPosts = [
         </p>
       </div>
     `,
-    date: 'Oct 13 2025',
-    category: 'Luxury Craftsmanship',
-    readTime: '6 min read',
-    image: ''
+    date: "Oct 13 2025",
+    category: "Luxury Craftsmanship",
+    readTime: "6 min read",
+    image: "",
   },
   {
-    slug: 'rugs-luxury-interior-architecture',
-    title: 'How Rugs Give a Luxury Feel in Interior and Architecture',
-    excerpt: 'Explore how rugs transform architectural spaces from simply designed to beautifully curated, acting as silent storytellers of luxury, art, and comfort in modern interiors.',
+    slug: "rugs-luxury-interior-architecture",
+    title: "How Rugs Give a Luxury Feel in Interior and Architecture",
+    excerpt:
+      "Explore how rugs transform architectural spaces from simply designed to beautifully curated, acting as silent storytellers of luxury, art, and comfort in modern interiors.",
     content: `
       <div class="prose prose-lg max-w-none">
         <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
@@ -114,15 +117,16 @@ export const blogPosts = [
         </p>
       </div>
     `,
-    date: 'Oct 20 2025',
-    category: 'Design Tips',
-    readTime: '8 min read',
-    image: '/blog2.jpg'
+    date: "Oct 20 2025",
+    category: "Design Tips",
+    readTime: "8 min read",
+    image: "/blog2.jpg",
   },
   {
-    slug: 'russian-interior-design-legacy-reimagined',
-    title: 'Russian Interior Design & Architecture: A Rich Legacy Reimagined',
-    excerpt: 'Journey through centuries of Russian design evolution—from Byzantine domes to Soviet monumentalism—and discover how handmade rugs bridge tradition and modernity in these opulent, layered spaces.',
+    slug: "russian-interior-design-legacy-reimagined",
+    title: "Russian Interior Design & Architecture: A Rich Legacy Reimagined",
+    excerpt:
+      "Journey through centuries of Russian design evolution—from Byzantine domes to Soviet monumentalism—and discover how handmade rugs bridge tradition and modernity in these opulent, layered spaces.",
     content: `
       <div class="prose prose-lg max-w-none">
         <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
@@ -205,15 +209,17 @@ export const blogPosts = [
         </p>
       </div>
     `,
-    date: 'Nov 08 2025',
-    category: 'Design Tips',
-    readTime: '9 min read',
-    image: ''
+    date: "Nov 08 2025",
+    category: "Design Tips",
+    readTime: "9 min read",
+    image: "",
   },
   {
-    slug: 'rug-trends-2025-2026-texture-minimalism',
-    title: 'The Future of Rug Design: 2025-2026 Trends Redefining Modern Interiors',
-    excerpt: 'Discover the revolutionary shift in rug design - from earthy minimalism to organic shapes and Japandi influences - that\'s transforming how we experience luxury and comfort in contemporary spaces.',
+    slug: "rug-trends-2025-2026-texture-minimalism",
+    title:
+      "The Future of Rug Design: 2025-2026 Trends Redefining Modern Interiors",
+    excerpt:
+      "Discover the revolutionary shift in rug design - from earthy minimalism to organic shapes and Japandi influences - that's transforming how we experience luxury and comfort in contemporary spaces.",
     content: `
       <div class="prose prose-lg max-w-none">
         <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
@@ -293,16 +299,18 @@ export const blogPosts = [
         </p>
       </div>
     `,
-    date: 'Nov 12 2025',
-    category: 'Design Tips',
-    readTime: '10 min read',
-    image: '/blog4.jpg'
+    date: "Nov 12 2025",
+    category: "Design Tips",
+    readTime: "10 min read",
+    image: "/blog4.jpg",
   },
   {
-  slug: 'handmade-rugs-bhadohi-global-weaving-legacy',
-  title: 'Handmade Carpets and Rugs Manufacturing in Bhadohi: The Heart of India’s Global Weaving Legacy',
-  excerpt: 'Explore how Bhadohi, India’s renowned Carpet Capital, continues to dominate the global handmade rug industry through centuries-old craftsmanship, ethical production, and world-class artistry.',
-  content: `
+    slug: "handmade-rugs-bhadohi-global-weaving-legacy",
+    title:
+      "Handmade Carpets and Rugs Manufacturing in Bhadohi: The Heart of India’s Global Weaving Legacy",
+    excerpt:
+      "Explore how Bhadohi, India’s renowned Carpet Capital, continues to dominate the global handmade rug industry through centuries-old craftsmanship, ethical production, and world-class artistry.",
+    content: `
     <div class="prose prose-lg max-w-none">
       <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
         Bhadohi, widely known as the Carpet Capital of India, is a region where centuries-old craftsmanship, tradition, and artistry come together to create some of the world’s finest handmade carpets and rugs. Every loom, knot, and pattern reflects generations of skill passed down through artisan families who have preserved this cultural legacy with remarkable dedication. Today, Bhadohi is not just a national treasure—it is a global powerhouse supplying premium handmade rugs to the USA, Europe, the Middle East, and other international markets.
@@ -380,16 +388,18 @@ export const blogPosts = [
       </p>
     </div>
   `,
-  date: 'Nov 22 2025',
-  category: 'News',
-  readTime: '9 min read',
-  image: '/blog5.png'
-},
-{
-  slug: 'india-carpet-expo-2026-dhruvrugs-global',
-  title: '50th India Carpet Expo 2026 – DhruvRugs.global Confirms Exhibition at India’s Most Iconic Handmade Carpet Trade Fair',
-  excerpt: 'DhruvRugs.global officially confirms its participation at the 50th India Carpet Expo 2026 — a historic milestone celebrating Indian handmade carpet excellence and global design collaboration.',
-  content: `
+    date: "Nov 22 2025",
+    category: "News",
+    readTime: "9 min read",
+    image: "/blog5.png",
+  },
+  {
+    slug: "india-carpet-expo-2026-dhruvrugs-global",
+    title:
+      "50th India Carpet Expo 2026 – DhruvRugs.global Confirms Exhibition at India’s Most Iconic Handmade Carpet Trade Fair",
+    excerpt:
+      "DhruvRugs.global officially confirms its participation at the 50th India Carpet Expo 2026 — a historic milestone celebrating Indian handmade carpet excellence and global design collaboration.",
+    content: `
     <div class="prose prose-lg max-w-none">
 
       <p class="text-white/90  text-sm md:text-lg leading-relaxed mb-8">
@@ -514,16 +524,18 @@ export const blogPosts = [
 
     </div>
   `,
-  date: 'Apr 11 2026',
-  category: 'News',
-  readTime: '10 min read',
-  image: '/blog6.jpg'
-},
-{
-  slug: 'italian-interior-design-timeless-elegance-craftsmanship',
-  title: 'Italian Interior Design: Timeless Elegance, Craftsmanship, and the Art of Living',
-  excerpt: 'Italian interior design is a celebration of balance, material excellence, and human-centered spaces—where centuries of craftsmanship meet modern living with effortless elegance.',
-  content: `
+    date: "Apr 11 2026",
+    category: "News",
+    readTime: "10 min read",
+    image: "/blog6.jpg",
+  },
+  {
+    slug: "italian-interior-design-timeless-elegance-craftsmanship",
+    title:
+      "Italian Interior Design: Timeless Elegance, Craftsmanship, and the Art of Living",
+    excerpt:
+      "Italian interior design is a celebration of balance, material excellence, and human-centered spaces—where centuries of craftsmanship meet modern living with effortless elegance.",
+    content: `
     <div class="prose prose-lg max-w-none">
       <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
         Italian interior design is widely regarded as one of the most refined and enduring design philosophies in the world. Rather than following short-lived trends, it is rooted in centuries of art, architecture, craftsmanship, and cultural identity. Italian interiors are shaped by a deep understanding of proportion, balance, material quality, and human experience. More than a visual language, Italian interior design represents a way of living—one that values comfort, authenticity, and emotional connection to space.
@@ -593,16 +605,18 @@ export const blogPosts = [
       </p>
     </div>
   `,
-  date: 'Dec 05 2025',
-  category: 'Design Tips',
-  readTime: '9 min read',
-  image: '/blog7.png'
-},
-{
-  slug: 'heimtextil-frankfurt-2026-global-textile-future',
-  title: 'Heimtextil Frankfurt 2026: Where the Global Textile Industry Redefines Its Future',
-  excerpt: 'Heimtextil Frankfurt 2026 stands as the world’s most influential platform shaping the future of textiles—where sustainability, material intelligence, and human-centered design set the global direction.',
-  content: `
+    date: "Dec 05 2025",
+    category: "Design Tips",
+    readTime: "9 min read",
+    image: "/blog7.png",
+  },
+  {
+    slug: "heimtextil-frankfurt-2026-global-textile-future",
+    title:
+      "Heimtextil Frankfurt 2026: Where the Global Textile Industry Redefines Its Future",
+    excerpt:
+      "Heimtextil Frankfurt 2026 stands as the world’s most influential platform shaping the future of textiles—where sustainability, material intelligence, and human-centered design set the global direction.",
+    content: `
     <div class="prose prose-lg max-w-none">
 
       <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
@@ -683,16 +697,18 @@ export const blogPosts = [
 
     </div>
   `,
-  date: 'Jan 10 2026',
-  category: 'News',
-  readTime: '8 min read',
-  image: '/blog8.jpeg'
-},
-{
-  slug: 'dhruvrugs-new-definition-of-luxury-festive-season',
-  title: 'DhruvRugs Introduces a New Definition of Luxury This Festive Season',
-  excerpt: 'This festive season, DhruvRugs unveils a transformative new collection—one defined by uncompromising quality, refined craftsmanship, material intelligence, and a confident step into global luxury leadership.',
-  content: `
+    date: "Jan 10 2026",
+    category: "News",
+    readTime: "8 min read",
+    image: "/blog8.jpeg",
+  },
+  {
+    slug: "dhruvrugs-new-definition-of-luxury-festive-season",
+    title:
+      "DhruvRugs Introduces a New Definition of Luxury This Festive Season",
+    excerpt:
+      "This festive season, DhruvRugs unveils a transformative new collection—one defined by uncompromising quality, refined craftsmanship, material intelligence, and a confident step into global luxury leadership.",
+    content: `
     <div class="prose prose-lg max-w-none">
 
       <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
@@ -771,16 +787,18 @@ export const blogPosts = [
 
     </div>
   `,
-  date: 'Dec 20 2025',
-  category: 'News',
-  readTime: '8 min read',
-  image: '/blog9.png'
-},
-{
-  slug: 'domotex-2026-flooring-industry-authority-dhruvrugs',
-  title: 'Domotex 2026: Where the Flooring Industry Is Judged, and Where DhruvRugs Stands with Authority',
-  excerpt: 'Domotex 2026 is not about spectacle—it is about evaluation. In an industry demanding discipline, material intelligence, and long-term reliability, DhruvRugs stands prepared with clarity, control, and conviction.',
-  content: `
+    date: "Dec 20 2025",
+    category: "News",
+    readTime: "8 min read",
+    image: "/blog9.png",
+  },
+  {
+    slug: "domotex-2026-flooring-industry-authority-dhruvrugs",
+    title:
+      "Domotex 2026: Where the Flooring Industry Is Judged, and Where DhruvRugs Stands with Authority",
+    excerpt:
+      "Domotex 2026 is not about spectacle—it is about evaluation. In an industry demanding discipline, material intelligence, and long-term reliability, DhruvRugs stands prepared with clarity, control, and conviction.",
+    content: `
     <div class="prose prose-lg max-w-none">
 
       <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
@@ -845,16 +863,17 @@ export const blogPosts = [
 
     </div>
   `,
-  date: 'Jan 25 2026',
-  category: 'News',
-  readTime: '9 min read',
-  image: '/blog10.png'
-},
-{
-  slug: 'ihgf-2026-craft-culture-global-trade',
-  title: 'IHGF 2026: A Grand Celebration of Craft, Culture, and Global Trade',
-  excerpt: 'IHGF 2026 brings together Indian craftsmanship, sustainability, innovation, and global trade—setting new benchmarks for the future of handmade and lifestyle sourcing.',
-  content: `
+    date: "Jan 25 2026",
+    category: "News",
+    readTime: "9 min read",
+    image: "/blog10.png",
+  },
+  {
+    slug: "ihgf-2026-craft-culture-global-trade",
+    title: "IHGF 2026: A Grand Celebration of Craft, Culture, and Global Trade",
+    excerpt:
+      "IHGF 2026 brings together Indian craftsmanship, sustainability, innovation, and global trade—setting new benchmarks for the future of handmade and lifestyle sourcing.",
+    content: `
     <div class="prose prose-lg max-w-none">
 
       <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
@@ -916,16 +935,17 @@ export const blogPosts = [
 
     </div>
   `,
-  date: 'Feb 2026',
-  category: 'News',
-  readTime: '10 min read',
-  image: '/blog11.jpeg'
-},
-{
-  slug: 'dhruvrugs-international-from-raw-fiber-to-refined-luxury',
-  title: 'DhruvRugs International: From Raw Fiber to Refined Luxury',
-  excerpt: 'Discover how DhruvRugs International transforms raw wool and silk into refined luxury rugs through disciplined craftsmanship, natural dyeing, precision weaving, and uncompromising quality control.',
-  content: `
+    date: "Feb 2026",
+    category: "News",
+    readTime: "10 min read",
+    image: "/blog11.jpeg",
+  },
+  {
+    slug: "dhruvrugs-international-from-raw-fiber-to-refined-luxury",
+    title: "DhruvRugs International: From Raw Fiber to Refined Luxury",
+    excerpt:
+      "Discover how DhruvRugs International transforms raw wool and silk into refined luxury rugs through disciplined craftsmanship, natural dyeing, precision weaving, and uncompromising quality control.",
+    content: `
     <div class="prose prose-lg max-w-none">
 
       <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
@@ -990,24 +1010,117 @@ export const blogPosts = [
 
     </div>
   `,
-  date: 'Feb 21 2026',
-  category: 'Luxury Craftsmanship',
-  readTime: '9 min read',
-  image: '/blog12.jpeg'
-}
+    date: "Feb 21 2026",
+    category: "Luxury Craftsmanship",
+    readTime: "9 min read",
+    image: "/blog12.jpeg",
+  },
+  {
+    slug: "aiff-2026-australian-furniture-interior-market",
+    title:
+      "Australian International Furniture Fair 2026: A Key Gateway for Global Interior and Furnishing Markets",
+    excerpt:
+      "AIFF 2026 in Melbourne highlights the evolving interior and furniture market across Australia and New Zealand, offering global manufacturers valuable insight into design trends, craftsmanship, and premium home furnishing demand.",
+    content: `
+    <div class="prose prose-lg max-w-none">
 
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        The Australian International Furniture Fair (AIFF) 2026, scheduled from 15–17 July 2026 in Melbourne, Australia, is widely regarded as one of the most influential trade platforms for furniture, home décor, and interior design products in the Australian region. The event brings together manufacturers, designers, wholesalers, retailers, and sourcing professionals who are actively shaping the future of interior spaces across Australia and New Zealand.
+      </p>
 
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">
+        Understanding the Importance of AIFF in the Global Furniture Industry
+      </h2>
 
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Held annually in Melbourne, AIFF has built a strong reputation as a central meeting point for the organized retail and interior design ecosystem. Buyers attending the fair represent some of the most established furniture retailers, lifestyle brands, interior design studios, and specification professionals in the region.
+      </p>
 
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        The event is co-located with Decor + Design, expanding its reach to architects, designers, stylists, and industry professionals involved in shaping modern interior environments. For global exporters and manufacturers, the event offers a valuable window into the Australian market—known for its strong preference for high-quality, sustainable, and design-forward products.
+      </p>
 
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">
+        Australia's Growing Demand for Premium Interior Products
+      </h2>
 
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Australia has emerged as one of the most stable and attractive markets for furniture and home décor. Retailers and designers increasingly seek products that combine craftsmanship, durability, and modern aesthetics.
+      </p>
 
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Handmade items, natural fibers, sustainable materials, and thoughtfully designed furnishings are particularly appreciated by Australian consumers. These preferences create significant opportunities for global manufacturers capable of delivering products that align with these expectations.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">
+        A Platform for Interior Innovation and Collaboration
+      </h2>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        One of the defining features of AIFF is its integration with the broader design community. By being co-located with Decor + Design, the exhibition becomes more than a furniture showcase—it transforms into a collaborative design environment where materials, product innovation, and architectural thinking intersect.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">
+        The Role of Handmade Rugs in Contemporary Interiors
+      </h2>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        In modern interiors, rugs and carpets are no longer viewed as simple floor coverings. Designers increasingly use rugs to define spatial zones, enhance acoustics, and introduce warmth and texture into contemporary environments.
+      </p>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Australian designers often favor rugs crafted from natural fibers such as wool, silk, and cotton. Textured surfaces, subtle palettes, and artisanal craftsmanship align perfectly with the design preferences of the Australian market.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">
+        Bhadohi Craftsmanship and the Role of Dhruv Rugs International
+      </h2>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Bhadohi, widely known as the “Carpet City of India,” remains one of the world’s most important centers for handmade rug production. Companies like Dhruv Rugs International represent this heritage through their focus on premium materials, skilled weaving, and refined finishing processes.
+      </p>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        Rugs are produced using carefully selected wool, silk, and cotton fibers and follow a structured process including natural dyeing, weaving, washing, stretching, clipping, carving, and finishing. This disciplined craftsmanship ensures each rug offers both aesthetic refinement and long-term durability.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">
+        Australia as a Growing Market for Handmade Rugs
+      </h2>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        The Australian interior design market continues to demonstrate growing interest in handcrafted rugs. Residential homes, boutique hotels, and interior design projects increasingly incorporate handmade rugs to create warmth, depth, and character within contemporary spaces.
+      </p>
+
+      <h2 class="text-xl md:text-3xl font-bold text-white mb-6">
+        Conclusion
+      </h2>
+
+      <p class="text-white/90 text-sm md:text-lg leading-relaxed mb-8">
+        The Australian International Furniture Fair 2026 represents a significant gathering for the Asia-Pacific furniture and interiors industry. By connecting retailers, designers, and manufacturers, the event highlights the evolving relationship between craftsmanship, design innovation, and global trade.
+      </p>
+
+      <p class="text-white text-xl font-semibold leading-relaxed">
+        As international markets increasingly value authenticity, sustainability, and refined design, handcrafted products—especially handmade rugs—continue to play an important role in shaping modern interior environments worldwide.
+      </p>
+
+    </div>
+  `,
+    date: "Jul 15 2026",
+    category: "News",
+    readTime: "9 min read",
+    image: "/blog13.png",
+  },
 ];
 
 export const categories = [
-  { name: 'Persian Rugs', count: 0, color: 'from-orange-400 to-red-600' },
-  { name: 'Design Tips', count: 4, color: 'from-blue-400 to-purple-600' },
-  { name: 'Care Guide', count: 0, color: 'from-green-400 to-teal-600' },
-  { name: 'News', count: 6, color: 'from-purple-400 to-pink-600' },
-  { name: 'Luxury Craftsmanship', count: 2, color: 'from-amber-400 to-orange-600' }
+  { name: "Persian Rugs", count: 0, color: "from-orange-400 to-red-600" },
+  { name: "Design Tips", count: 4, color: "from-blue-400 to-purple-600" },
+  { name: "Care Guide", count: 0, color: "from-green-400 to-teal-600" },
+  { name: "News", count: 7, color: "from-purple-400 to-pink-600" },
+  {
+    name: "Luxury Craftsmanship",
+    count: 2,
+    color: "from-amber-400 to-orange-600",
+  },
 ];
