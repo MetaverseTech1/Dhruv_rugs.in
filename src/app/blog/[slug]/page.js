@@ -95,7 +95,7 @@ export default function BlogPostPage({ params }) {
             src={post.image}
             alt={post.title}
             fill
-            className="object-cover"
+            className="object-contain"
             priority
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
